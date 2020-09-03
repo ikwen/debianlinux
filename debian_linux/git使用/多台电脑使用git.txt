@@ -1,0 +1,19 @@
+https://jpuyy.com/2012/07/use-github-and-change-computer.html
+
+
+在B上创建~/.ssh/config，写入以下内容，保存退出。
+
+Host github.com
+ User git
+ Hostname github.com
+ PreferredAuthentications publickey
+ IdentityFile ~/.ssh/id_rsa.github
+
+测试下能成功
+jpuyy@www:~/.ssh$ ssh -T git@github.com
+ Hi jpuyy! You've successfully authenticated, but GitHub does not provide shell access.
+
+这和在A上第一次使用时方法一样，但为了不使用默认名id_rsa，可用如下命令
+
+ssh-keygen -C "jpuyy.com@gmail.com" -f ~/.ssh/id_rsa.github
+这时把id_rsa.github.pub的内容copy到对应github.com的ssh公钥里

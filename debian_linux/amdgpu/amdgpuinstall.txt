@@ -1,0 +1,23 @@
+找到开源社区的驱动。参考debian 百度贴吧的3楼，具体信息可以看ati官网， 大概安装如下：
+
+如果安装过nvidia的驱动，先卸载
+apt-get purge nvidia  
+1
+在/etc/apt/sources.list 添加如下内容
+# Debian 9 "stretch" 8 "Jessie", 我的系统是debian9, 所以是stretch。
+deb http://httpredir.debian.org/debian/ stretch main contrib non-free
+1
+2
+更新源
+apt-get update
+1
+安装
+ apt-get install firmware-linux-nonfree libgl1-mesa-dri xserver-xorg-video-ati
+1
+重启系统即可。哈哈，这里终于看到希望了。
+
+————————————————
+
+版权声明：本文为CSDN博主「HockerF」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+
+原文链接：https://blog.csdn.net/u012939880/article/details/84435697

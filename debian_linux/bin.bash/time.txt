@@ -1,0 +1,11 @@
+参考来源：https://blog.csdn.net/fchyang/article/details/82113802
+
+time命令最常用的使用方式就是在其后面直接跟上命令和参数：
+
+time <command> [<arguments...>]
+
+在命令执行完成之后就会打印出CPU的使用情况：
+
+real    0m5.064s      <== 实际使用时间（real time） 
+user    0m0.020s     <== 用户态使用时间（the process spent in user mode） 
+sys     0m0.040s      <== 内核态使用时间（the process spent in kernel mode）

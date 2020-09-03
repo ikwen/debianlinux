@@ -1,0 +1,70 @@
+#现在的debian linux 10.2真是越来越好用了，基本装完系统，就有了声音、网络
+#硬件驱动几乎不用理就直接使用，也不用装烦人的flash player插件。为了方便
+#以后可以快速部署简洁的桌面环境,以下是自己平时使用debian linux 的一些记录.
+
+参考来源：https://blog.csdn.net/ieeso/article/details/94135286
+//安装google-chrome浏览器
+编辑/etc/apt/sources.list加入下面这句
+deb http://dl.google.com/linux/chrome/deb/ stble main
+wget https://dl-ssl.google.com/linux/linux_signing_key.pub  //先翻墙下载到本地
+apt-key add linux_signing_key.pub
+apt-get update
+apt-get install google-chrome-stable
+//完成
+
+========================================================================
+
+参考来源：https://www.cnblogs.com/pinecone-s/p/4570186.html
+debian安装fcitx
+apt-get install fcitx fcitx-table-wubi \\或fcitx-table-wubi-large(传统五笔)
+                                        \\或fcitx-pinyin(拼音)
+安装输入法配置工具
+apt-get install im-config   \\或者安装im-switch也可以，安装完重启系统。
+运行im-config 并将输入法选fcitx。
+
+========================================================================
+lx终端有时不能复制文字到chrome浏览器，比如在vim里面。那就换个文本编辑器吧。
+apt-get install gedit
+
+========================================================================
+
+安装 shadowsocks-qt5  图形界面翻qiang
+apt-get install shadowsocks-qt5
+=======================================================================
+火狐简体中文
+当你安装了最小化的系统，然后再文本模式的系统安装了lxde桌面管理器，这时系统
+自带的火狐浏览器默认是英文版的，这时你只要连上网络，在火狐-设置-语言（Language Settings）
+选择 Chinaese(China),应用并重启浏览器就可以变成简单中文了。
+=======================================================================
+参考来源：https://blog.csdn.net/sdfshfh/article/details/87261033
+Linux读取这个硬件时间要用到hwclock这个命令：
+
+hwclock --show ：显示硬件时间
+hwclock --systohc ：将系统时间写入硬件
+hwclock --hctosys ：将硬件时间写入系统时间
+
+
+=======================================================================
+参考来源：https://blog.csdn.net/zzzgd_666/article/details/80290458  (有效)
+谷歌chrome浏览器导出打包扩展程序crx
+首先找到扩展程序的本地文件
+以win10为例, 扩展程序的存放地址是
+C:\Users\Administrator\AppData\Local\
+Google\Chrome\User Data\Default\Extensions
+这时候显示的是随机字符串命名的文件夹, 我们只能通过版本号进行搜索
+在chrome浏览器右上角三个点 - 更多工具 - 扩展程序
+查看扩展程序列表, 根据版本号 , 在…..Default\Extensions文件夹
+右上角搜索即可
+然后打开扩展程序的开发者模式
+打包扩展程序中, 把扩展程序的本地路径复制粘贴上去即可
+点击确定, 就会在…..Default\Extensions文件夹生成我们需要的crx文件了
+这时候只要将这个文件拖到chrome浏览器上就可以安装了
+===================================================================
+参考来源：https://jingyan.baidu.com/article/76a7e4098171e9bc3a6e1501.html
+Linux上使用tar或者zip打包加密文件
+zip -rP 密码 加密后的文件名.zip 要加密的文件或目录
+-------------------------------------------------
+使用zip命令解密
+unzip 要解密的文件.zipunzip 要解密的文件.zip,按提示输入密码  
+也可以使用-P直接加上密码解压,unzip -P 密码 要解密的文件.zip
+======================================================================

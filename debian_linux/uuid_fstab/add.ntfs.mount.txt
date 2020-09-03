@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ls -l /dev/disk/by-uuid >> /etc/fstab
+
+#看一下需要自动挂载哪个分区，取uuid部分，注意不是parted UUID ,这个是错的
+#一般是很短的UUID .如果用了分区UUID开不了机，在开机卡住的终端直接输入root密码。
+#重新编辑/etc/fstab即可进系统。
+#另外一个查看UUID 的命令是blkid -l
