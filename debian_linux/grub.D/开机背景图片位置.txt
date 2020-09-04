@@ -1,0 +1,19 @@
+正在选中未选择的软件包 ipxe。
+(正在读取数据库 ... 系统当前共安装有 128818 个文件和目录。)
+准备解压 .../ipxe_1.0.0+git-20190125.36a4c85-1_all.deb  ...
+正在解压 ipxe (1.0.0+git-20190125.36a4c85-1) ...
+正在设置 ipxe (1.0.0+git-20190125.36a4c85-1) ...
+Generating grub configuration file ...
+Found background image: /usr/share/images/desktop-base/desktop-grub.png
+Found Windows 10 on /dev/sda1
+Found linux image: /boot/vmlinuz-4.19.0-10-amd64
+Found initrd image: /boot/initrd.img-4.19.0-10-amd64
+Found linux image: /boot/vmlinuz-4.19.0-9-amd64
+Found initrd image: /boot/initrd.img-4.19.0-9-amd64
+Found iPXE image: /boot/ipxe.lkrn
+done
+
+
+
+/usr/share/desktop-base/active-theme/grub #最后找到的位置
+
