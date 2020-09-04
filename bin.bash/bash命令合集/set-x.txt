@@ -1,0 +1,13 @@
+参考来源：https://www.cnblogs.com/robinunix/p/11635560.html
+用于脚本调试，在liunx脚本中可用set -x就可有详细的日志输出.免的老是要echo了
+
+#!/bin/bash
+set -x
+a=${1}
+b=$
+
+运行结果
+
+bash a.sh 1 2
++ a=1
++ b=1
