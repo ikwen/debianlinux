@@ -1,0 +1,10 @@
+set:ff  //查看文件格式（编码）
+set:ff=unix
+set:ff=dos
+
+0  //到行首
+G  //到行尾
+A  //行尾插入
+
+:set nu //显示行数
+:set nonu //不显示行数

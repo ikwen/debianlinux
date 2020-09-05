@@ -1,0 +1,3 @@
+https://my.oschina.net/u/1011130/blog/1840013
+Ubuntu下无法使用add-apt-repository命令(适用debian)
+apt-get install software-properties-common

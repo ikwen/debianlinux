@@ -1,0 +1,27 @@
+参考来源：https://blog.csdn.net/TTchengcheng/article/details/77948099
+Debian 9 安装Steam游戏平台
+1、到steam官网下载安装程序，自动识别你的操作系统。
+
+2、安装gdebi包管理工具
+
+sudo apt-get install gdebi
+
+     在文件夹下选择gdebi打开第一步下载的deb文件，用gdebi好处是自动下载依赖项。也可以用命令 dpkg -i 安装,但是需要自己安装相关的依赖项。
+3、打开steam时会提示错误Steam ERROR: You are missing the following 32-bit libraries, and Steam may not run: libc.so.6
+
+      解决办法，终端依次输入下列命令
+
+sudo apt-get update
+
+sudo apt-get install libc6-i386
+
+4、接下来steam会下载完毕提示错误
+
+终端输入这些解决了 ，如果不能安装，请切换至debian sid 源
+
+dpkg --add-architecture i386
+apt-get update
+apt-get install libgl1-mesa-dri:i386 libgl1-mesa-glx:i386 libc6:i386
+————————————————
+版权声明：本文为CSDN博主「TTchengcheng」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/TTchengcheng/article/details/77948099

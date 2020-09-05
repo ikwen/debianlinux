@@ -1,0 +1,20 @@
+Debian lxde 自动登录设置
+个人电脑一直使用debian，但是每次开机都要输入用户名和密码，显得有些繁琐。另外，电脑只有我一个人用，也不用靠密码来保护什么个人隐私。所以干脆就设置上自动登录。
+
+
+
+方法：
+
+修改 /etc/lightdm/lightdm.conf文件，在文件中找到#autologin-user=,修改为autologin-user=USER，将USER替换为你的用户名。
+
+
+
+重启后，发现真的不用输入用户名和密码了。(经测试发现不能使用root设置自动登录)
+
+OK
+
+————————————————
+
+版权声明：本文为CSDN博主「lsnl8480」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+
+原文链接：https://blog.csdn.net/lsnl8480/java/article/details/10269169

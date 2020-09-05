@@ -1,0 +1,16 @@
+https://www.jb51.net/LINUXjishu/608816.html
+
+
+!sudo：调用shell sudo命令。
+
+tee：vi/vim write命令的输出使用tee重定向。
+
+%：触发当前文件名的使用。
+
+简单地说，“tee”命令作为sudo运行，并在给定的当前文件名上遵循vi/vim命令。
+
+
+:w !sudo tee %
+
+记得要把用户名加入/etc/sudoers
+没有sudo 你就要安装  apt-get install sudo
