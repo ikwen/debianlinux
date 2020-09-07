@@ -1,0 +1,28 @@
+https://blog.csdn.net/july_memory/article/details/89141666
+
+
+set fileencoding
+查看现在文本的编码
+
+:set fenc=编码
+转换当前文本的编码为指定的编码
+
+:set enc=编码
+以指定的编码显示文本，但不保存到文件中。
+这里的“编码”常见为gbk utf-8 big5 cp936
+
+:set ff?
+查看当前文本的模式类型，一般为dos,unix
+
+:set ff=dos
+设置为dos模式
+也可以用一下方式转换为unix模式
+
+:%s/^M//g
+等同于:set ff=unix
+
+————————————————
+
+版权声明：本文为CSDN博主「July_memory」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+
+原文链接：https://blog.csdn.net/july_memory/article/details/89141666

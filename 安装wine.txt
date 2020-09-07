@@ -1,0 +1,52 @@
+本机现在安装了这两个包 wine-development wine
+
+https://www.ubuntukylin.com/applications/23-cn.html
+参考这里的做法，到步骤 apt install wine-stable 时，提示wine-stable
+包miss . 建议我安装 上面那两个包，然后 我就安装了。提示需要1.3GB的硬盘空间。
+
+
+https://www.ubuntukylin.com/applications/ 这里为其它第三方windows应用
+
+安装QQ时（https://www.ubuntukylin.com/public/pdf/wine-qq_1.0_all.deb下载）提示：
+依赖 wine-stable未安装
+dpkg: dependency problems prevent configuration of wine-qq:
+ wine-qq depends on wine-stable (>= 1.8); however:
+  Package wine-stable is not installed.
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+删除wine
+https://blog.csdn.net/weixin_39465823/article/details/85917818
+## begin the allremove.sh
+sudo apt-get remove wine* --purge
+sudo apt-get automove 
+rm -r ~/.local/share/applications
+rm -r ~/.config/menus/applications-merged/wine* 
+dpkg -l |grep ^rc|awk '{print $2}' |sudo xargs dpkg -P
+rm -rf $HOME/.wine
+sudo rm /usr/local/bin/wine64 
+sudo rm /opt/wine* -rf
+sudo rm /usr/local/bin/wineserver -rf
+sudo rm /opt/cxoffice/bin/wineserver -rf
+sudo rm /usr/local/bin/wine* -rf
+## end the allremove.sh
+
+————————————————
+
+版权声明：本文为CSDN博主「郭彦章」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+
+原文链接：https://blog.csdn.net/weixin_39465823/java/article/details/85917818
+ 我这边是删除干净了，如果你那边还没删除干净，可以使用whereis命令，找到路径再删除就好。
+
+参考1：https://blog.csdn.net/taizhoufox/article/details/5496568
+
+参考2：https://blog.csdn.net/m0_37949799/article/details/79775166
+
+参考3：https://blog.csdn.net/a1eafall/article/details/51967506
+
+————————————————
+
+版权声明：本文为CSDN博主「郭彦章」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+
+原文链接：https://blog.csdn.net/weixin_39465823/java/article/details/85917818
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
