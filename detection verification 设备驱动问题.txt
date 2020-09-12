@@ -1,1 +1,3 @@
 detection verification 设备驱动问题
+
+安装声卡驱动。
