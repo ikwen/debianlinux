@@ -1,0 +1,9 @@
+
+
+/etc/network/interfaces 
+
+加网卡后
+用 ip a 命令查看发现第2张网卡原来是enp2s0的，加了显卡后变成了enp3s0.
+ 原 allow-hotplug enp2s0 和iface enp2s0 inet dhcp
+要改为 allow-hotplug enp3s0 和iface enp2s0 inet dhcp 重启即可。
+
