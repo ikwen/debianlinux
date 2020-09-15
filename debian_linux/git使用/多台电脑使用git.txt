@@ -17,3 +17,4 @@ jpuyy@www:~/.ssh$ ssh -T git@github.com
 
 ssh-keygen -C "jpuyy.com@gmail.com" -f ~/.ssh/id_rsa.github
 这时把id_rsa.github.pub的内容copy到对应github.com的ssh公钥里
+ok
