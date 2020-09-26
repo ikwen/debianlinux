@@ -19,3 +19,20 @@ new MB SN:Õâ¸öÄ¬ÈÏÎª¿Õ£¬  Asset tag:Îª¿Õ¡£È»ºóµã»÷ RDPK inject £¬³öÀ´Ò»¸ö¶þÎ¬Âë£
 2¡¢Èç¹û»»Ö÷°åÁË£¬¿ª»úLOGO  ÊÇ·½ÕýµÄ£¬°´ÀíËµ½øÁËË¢dmiÏµÍ³»áÌáÊ¾·Çacer²úÆ·¡£±¾´Î²Ù×÷ÒÔÎªÊÇ¸úÕâ¸öÓÐ¹Ø£¬²ÅË¢ÁËBIOS¡£Ë¢BIOS ºóLOGO Ò²×Ô¶¯±äÎªacerµÄÁË¡£
 3¡¢±¾´ÎÎ¬ÐÞÍê³Éºó£¬½áÂÛÊÇÕâ´Î×Ô¶¯¹Ø»úÊÇUÅÌÃ»×öºÃ£¬Óë·Çacer²úÆ·ÎÞ¹Ø¡£
 4¡¢±¾´ÎÈ«³ÌÔÚdebian ²Ù×÷¡£ fdisk /dev/sdb  d  n p t ´ÅÅÌ¸ñÊ½¸ÄÎªb Ò²¾ÍÊÇ win95 fat32  mkfs.vfat /dev/sdb1 ¡£
+5¡¢µÚÈýÏî(main board repair center) ÊÇÇå³ýÖ÷°åÐÅÏ¢£¬Èç¹ûÐ´´íÁËÖ÷°åSN¾ÍÒªÓÃÕâ¸ö£¬ÓÃÁËÕâ¸öºóÒªÖØÐÂ°Ñ.xml ÎÄ¼þ·ÅUÅÌÖØ×öÒ»±édmi.
+
+ÉÏÃæÓÐÎó£¬Ð´dmi ÊÇÑ¡µÚ4Ïî£º DMI Tool /OA key switch
+È»ºóÕÒµ½ MB SN : ÕÒµ½·þÎñµ¥¶ÔÓ¦µÄ ¹ÊÕÏÐòºÅ ÊÖ¶¯ÊäÈëÈ¥£¬È»ºó°´ Modify ÐÞ¸Ä¡£
+ÕâÊ±ºò»áÌáÊ¾ÖØÆô£¬ÖØÆôºóÔÙ½ø linux DMI¹¤¾ß¡£Ñ¡µÚ1Ïî¡£ÕâÊ± new MB SN :»áÓÐÖ®Ç°ÊäÈëµÄ ¹ÊÕÏÐòºÅ ÁË¡£ ÕâÊ±°´RDPK inject ¡£ÖØÆô°ÑÎÄ¼þÉÏ´«µ½·þÎñÖÐÐÄ¾ÍÐÐÁË¡£
+
+6¡¢ ÉÏ´«ÎÄ¼þÊ±£¬ÓÃdebianºÍwin7 µÄchrome ä¯ÀÀÆ÷¶¼²»ÐÐ£¬ÉÏ´«Ê±±¾Ó¦¸Ãµ¯³öÐÞ¸ÄÖ÷°åSN µÄ´°¿Ú£¬µ«Ã»ÓÐµ¯³ö¡£win7 ×°360ä¯ÀÀÆ÷Õý³£¡£
+ 7¡¢Èç¹ûÌî´íÁËSN .ÔÚÉÏ´«Ê±¿ÉÒÔÐÞ¸Ä¡£
+8£º ×îÈÝÒ×´íÎóµÄÊÇ ÉÏ´«Ê±ÌáÊ¾ Ö÷°åÐòÁÐºÅ²»Æ¥Åä¡£ÆäÊµÊÇ °Ñ ¹ÊÕÏÐòÁÐºÅµ±  ¸ü»»ÐòºÅÁË  ¡£
+¶Ô±ÈÒ»ÏÂ£º
+Õâ´ÎµÄ¹ÊÕÏÐòÁÐºÅ£º
+ºÍ¸ü»»ÐòÁÐºÅ£º
+
+DBVMLCN00274200A039100	
+DBVMLCN00273800B049100	
+
+²î±ðÊÇÖÐ¼äµÄ 4200A039 ºÍ 3800B049 
