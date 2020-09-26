@@ -25,7 +25,7 @@ new MB SN:Õâ¸öÄ¬ÈÏÎª¿Õ£¬  Asset tag:Îª¿Õ¡£È»ºóµã»÷ RDPK inject £¬³öÀ´Ò»¸ö¶þÎ¬Âë£
 È»ºóÕÒµ½ MB SN : ÕÒµ½·þÎñµ¥¶ÔÓ¦µÄ ¹ÊÕÏÐòºÅ ÊÖ¶¯ÊäÈëÈ¥£¬È»ºó°´ Modify ÐÞ¸Ä¡£
 ÕâÊ±ºò»áÌáÊ¾ÖØÆô£¬ÖØÆôºóÔÙ½ø linux DMI¹¤¾ß¡£Ñ¡µÚ1Ïî¡£ÕâÊ± new MB SN :»áÓÐÖ®Ç°ÊäÈëµÄ ¹ÊÕÏÐòºÅ ÁË¡£ ÕâÊ±°´RDPK inject ¡£ÖØÆô°ÑÎÄ¼þÉÏ´«µ½·þÎñÖÐÐÄ¾ÍÐÐÁË¡£
 
-6¡¢ ÉÏ´«ÎÄ¼þÊ±£¬ÓÃdebianºÍwin7 µÄchrome ä¯ÀÀÆ÷¶¼²»ÐÐ£¬ÉÏ´«Ê±±¾Ó¦¸Ãµ¯³öÐÞ¸ÄÖ÷°åSN µÄ´°¿Ú£¬µ«Ã»ÓÐµ¯³ö¡£win7 ×°360ä¯ÀÀÆ÷Õý³£¡£
+6¡¢ ÉÏ´«ÎÄ¼þÊ±£¬ÓÃdebianºÍwin7 µÄchrome ä¯ÀÀÆ÷¶¼²»ÐÐ£¬»áÉÁÒ»ÏÂ,ÉÏ´«Ê±±¾Ó¦¸Ãµ¯³öÐÞ¸ÄÖ÷°åSN µÄ´°¿Ú£¬µ«Ã»ÓÐµ¯³ö¡£win7 ×°360ä¯ÀÀÆ÷Õý³£¡£
  7¡¢Èç¹ûÌî´íÁËSN .ÔÚÉÏ´«Ê±¿ÉÒÔÐÞ¸Ä¡£
 8£º ×îÈÝÒ×´íÎóµÄÊÇ ÉÏ´«Ê±ÌáÊ¾ Ö÷°åÐòÁÐºÅ²»Æ¥Åä¡£ÆäÊµÊÇ °Ñ ¹ÊÕÏÐòÁÐºÅµ±  ¸ü»»ÐòºÅÁË  ¡£
 ¶Ô±ÈÒ»ÏÂ£º
