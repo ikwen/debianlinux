@@ -15,4 +15,7 @@ new MB SN:Õâ¸öÄ¬ÈÏÎª¿Õ£¬  Asset tag:Îª¿Õ¡£È»ºóµã»÷ RDPK inject £¬³öÀ´Ò»¸ö¶þÎ¬Âë£
 
 
  
-
+×¢Òâ£ºÈç¹ûU ÅÌÃ»×öºÃ£¬»á³öÏÖ¸ÕÆô¶¯µ½À¶É«×ÀÃæÃ»ÈÎºÎÌáÊ¾¾Í×Ô¶¯¹Ø»ú¡£
+2¡¢Èç¹û»»Ö÷°åÁË£¬¿ª»úLOGO  ÊÇ·½ÕýµÄ£¬°´ÀíËµ½øÁËË¢dmiÏµÍ³»áÌáÊ¾·Çacer²úÆ·¡£±¾´Î²Ù×÷ÒÔÎªÊÇ¸úÕâ¸öÓÐ¹Ø£¬²ÅË¢ÁËBIOS¡£Ë¢BIOS ºóLOGO Ò²×Ô¶¯±äÎªacerµÄÁË¡£
+3¡¢±¾´ÎÎ¬ÐÞÍê³Éºó£¬½áÂÛÊÇÕâ´Î×Ô¶¯¹Ø»úÊÇUÅÌÃ»×öºÃ£¬Óë·Çacer²úÆ·ÎÞ¹Ø¡£
+4¡¢±¾´ÎÈ«³ÌÔÚdebian ²Ù×÷¡£ fdisk /dev/sdb  d  n p t ´ÅÅÌ¸ñÊ½¸ÄÎªb Ò²¾ÍÊÇ win95 fat32  mkfs.vfat /dev/sdb1 ¡£
