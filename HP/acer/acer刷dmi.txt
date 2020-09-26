@@ -1,5 +1,5 @@
 1\制作U盘。
-2、登录  http://css.acer.com.cn/cssv7/system/FormWelcome.aspx   （1、服务作业 2、维修作业 3、待修列表 4、搜寻 然后选中单号进入服务单）
+2、登录  http://css.acer.com.cn/cssv7/system/FormWelcome.aspx(帐号存微云)   （1、服务作业 2、维修作业 3、待修列表 4、搜寻 然后选中单号进入服务单）
 
 3、下载文件：在故障类别  找到更换主板那行，选择  “DB.VMLCN.002 下载RDPK” 不然用直接复制好的U盘进去系统会直接关机，桌面蓝色就直接关机，没任何提示。
 
@@ -9,3 +9,4 @@
 
 
  
+
