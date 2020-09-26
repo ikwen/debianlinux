@@ -4,8 +4,14 @@
 3、下载文件：在故障类别  找到更换主板那行，选择  “DB.VMLCN.002 下载RDPK” 不然用直接复制好的U盘进去系统会直接关机，桌面蓝色就直接关机，没任何提示。
 
 下载后的文件名“RDPK_OnSite_9183759_11243886.xml”复制到U盘 /RDPK/Unused/   不用重命名
+然后用这个下载了.xml文件的U 盘去引导开机。进入刷DMI的linux 系统。
 
-、在服务单里选择“上传更新的XML文档”
+登录：  account: acerl2  password:l2@acer
+登录后有5个按键：1、service center(服务中心 2、field service  3、main board repair center 4、dmi tool OA key switch 5、RDPK status)
+选：1、service center ： case ID：选上单号。
+new MB SN:这个默认为空，  Asset tag:为空。然后点击 RDPK inject ，出来一个二维码，二维码旁边有个重启和关机的按钮。
+重启，把U 盘拔出。插到其它电脑，打开U盘，这时原来在”/media/ikwen/Debian 10.4.0 amd64 1/RDPK/Unused" 的“RDPK_OnSite_9183759_11243886.xml”文件，已经跑到了 /media/ikwen/Debian 10.4.0 amd64 1/RDPK/Used
+把 RDPK_OnSite_9183759_11243886.xml 文件上传到服务中心。(在服务中心“上传更新的XML文档	按上传。”到此就完成了一个case。)
 
 
  
