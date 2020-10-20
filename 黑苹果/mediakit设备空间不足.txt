@@ -9,3 +9,11 @@ https://www.cnblogs.com/lonecloud/p/7107063.html
 　　建立一个分区，分区大小在200MB，格式为EFI分区，工具diskgenius
 　　在mac电脑上进行格式化磁盘，格式为OX日志格式。
 
+
+以上无效，主要原因是原来的win10前面的esp分区只有100MB，而你新建一个ESP分区也没有用。正在想办法扩容ESP分区。
+
+其它方法，默认第一个分区是ESP，第二个是MSR（微软保留分区，这个分区没有数据的，可以删除，删除后一样可以进win10），删除后把空间扩容到ESP即可。
+
+
+https://www.zhihu.com/question/28846569
+我把msr隐藏分区删除了，会有什么影响？
