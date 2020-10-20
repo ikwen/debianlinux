@@ -1,0 +1,11 @@
+装黑苹果提示 mediakit报告设备上的空间不足 求助
+https://zhidao.baidu.com/question/1049105666434693259.html
+
+https://www.cnblogs.com/lonecloud/p/7107063.html
+
+
+解决办法：
+
+　　建立一个分区，分区大小在200MB，格式为EFI分区，工具diskgenius
+　　在mac电脑上进行格式化磁盘，格式为OX日志格式。
+
