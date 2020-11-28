@@ -8,3 +8,8 @@ video-srt 下载：https://github.com/wxbool/video-srt  这里有cli命令行的
 
 https://gitee.com/641453620/video-srt-windows
 
+###############################################################
+bilibili 推荐的字幕通：https://www.bilibili.com/video/BV1nb411w7eV/?spm_id_from=autoNext
+
+下载地址 https://www.yeekit.com/site/caption
+##################################################################
