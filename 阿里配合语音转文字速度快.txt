@@ -3,3 +3,8 @@ https://www.youtube.com/watch?v=J4_d4-Ugvvk
 
 https://www.youtube.com/watch?v=6GchsTpcHy8
 
+
+video-srt 下载：https://github.com/wxbool/video-srt  这里有cli命令行的版本
+
+https://gitee.com/641453620/video-srt-windows
+
