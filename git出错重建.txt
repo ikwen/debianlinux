@@ -1,0 +1,12 @@
+ 先备份好git 目录
+
+把 .git 删除
+
+git init .
+
+添加远程服务器
+git remote add origin git@server-name:path/repo-name.git
+
+pull
+
+push
