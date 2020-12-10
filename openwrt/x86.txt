@@ -1,0 +1,1 @@
+https://mirrors.a-m-v.pl/downloads.openwrt.org/releases/19.07.3/targets/x86/legacy/

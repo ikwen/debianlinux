@@ -1,0 +1,6 @@
+https://www.debian.org/doc/manuals/debian-reference/index.zh-cn.html
+/etc/X11/default-display-manager
+
+
+#debian 官方文档，关于x window
+https://www.debian.org/doc/manuals/debian-reference/ch07.zh-cn.html#_setting_up_desktop_environment

@@ -1,0 +1,83 @@
+参考来源：https://blog.csdn.net/wislove/article/details/93046500
+
+1、感谢elementaryos中文版的团队
+2、感谢deepin深度linux团队
+安装方法
+1、导入key
+
+sudo wget -O - http://package.elementaryos.cn/bionic/key/package.gpg.key | sudo apt-key add -
+1
+2、添加deb源
+添加文件 vim /etc/apt/deepin.list 内容
+
+deb http://package.elementaryos.cn/bionic/ bionic main
+1
+3、更新软件源、更新系统
+
+sudo apt update&sudo apt upgrade
+1
+4、安装软件
+安装命令 sudo apt install 软件包名
+例如安装TIM命令为：sudo apt install deepin.com.qq.office
+现阶段所有软件包如下：
+
+wingpanel-indicator-ayatana 第三方应用状态栏图标修复，安装后重启
+deepin.cn.360.yasuo 360压缩
+deepin.cn.com.winrar WinRAR
+deepin.com.baidu.pan 百度网盘(wine)
+baidunetdisk 百度网盘(原生)
+deepin.com.foxmail Foxmail邮件客户端
+deepin.com.qq.im QQ
+deepin.com.taobao.wangwang 阿里旺旺
+deepin.com.thunderspeed 迅雷
+deepin.com.wechat.devtools 微信开发者工具
+deepin.com.wechat 微信
+deepin.com.weixin.work 企业微信
+deepin.org.7-zip 7-Zip
+deepin.org.foobar2OOO foobar2000
+electron-ssr 酸酸乳
+navicat Navicat数据库管理客户端
+netease-cloud-music 网易云音乐
+sogoupinyin 搜狗拼音输入法
+wps-office WPS
+motrix motrix下载软件
+anydesk anydesk跨平台远程协助软件
+symbol-fonts wps字体缺失修复包
+5、安装完成后，删除/etc/apt/deepin.list以防止紊乱当前系统软件包
+————————————————
+版权声明：本文为CSDN博主「USG_f4d」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/wislove/article/details/93046500
+
+
+
+
+
+
+====================================================
+下载key 时出错，进入http后发现里面的目录已经改过了。
+aryos.cn/apt/key/package.gpg.key
+--2020-02-21 19:12:04--  http://package.elementaryos.cn/apt/key/package.gpg.key
+Resolving package.elementaryos.cn (package.elementaryos.cn)... 118.24.104.111
+Connecting to package.elementaryos.cn (package.elementaryos.cn)|118.24.104.111|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2020-02-21 19:12:06 ERROR 404: Not Found.
+
+
+sudo wget -O - http://package.elementaryos.cn/bionic/key/package.gpg.key | sudo apt-key add -
+1
+-------------------------------
+改为 wget http://package.elementaryos.cn/bionic/key/package.gpg.key
+	      apt-key add package.gpg.key
+ ==================================================================      
+
+添加文件 vim /etc/apt/deepin.list 内容
+
+deb http://package.elementaryos.cn/bionic/ bionic main
+---------------------------------
+这里应该把   添加文件 vim /etc/apt/deepin.list改为/etc/apt/sources.list
+如果像他这样添加多一个.list文件，经测试过是不行的。
+=====================================================================
+
+
+
+

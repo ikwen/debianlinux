@@ -1,0 +1,11 @@
+来源：https://blog.csdn.net/zqixiao_09/article/details/49892045
+
+
+linux 下编程，用到的编程工具是VI，编辑编译都方便，但经常出现中文乱码问题，下面可完美解决这个问题
+
+由于在windows下默认是gb编码，而我的vim默认是utf-8（gedit默认也是utf-8），所以打开会成乱码。修改了一下配置文件，使vi支持gb编码就好了。
+$vi ~/.vimrc
+let &termencoding=&encoding
+set fileencodings=utf-8,gbk
+$:wq
+再次打开vi，显示就正常了。

@@ -1,0 +1,15 @@
+安装 debian lxde
+1、
+设置自动登录：
+修改 /etc/lightdm/lightdm.conf文件，在文件中找到#autologin-user=,修改为autologin-user=USER，将USER替换为你的用户名。 注意不能使用root用户。
+
+
+2.当程序需要使用到图像界面的时候，可以将执行脚本（autostart.sh）的 命令直接添加在~/.config/lxsession/Linaro/autostart的最后一行添加
+如 ：@/home/linaro/autostart.sh
+
+3.mplayer 脚本编写：
+
+mplayer -shuffle -fs -playlist /home/ikwen/Videos/music.lst -loop 0
+
+mplayer -shuffle(随机播放) -fs(全屏) -playlist(播放列表参数) /home/ikwen/Videos/music.lst(播放列表位置) -loop 0(循环播放)
+

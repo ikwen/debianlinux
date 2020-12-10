@@ -1,0 +1,22 @@
+http://www.360doc.com/content/19/0227/05/14775740_817794211.shtml
+
+有时候为了折腾，在PC的虚拟机上跑 OpenWrt 有着很多优势。这里介绍一下使用 Vmware 运行 OpenWrt 的方法。
+
+1. 准备一个Linux发行版的虚拟机系统，这里使用Ubuntu 18.04
+2. 进入Ubuntu系统，打开终端，下载系统镜像并转换为vmdk：
+
+Shell
+1
+2
+3
+4
+5
+6
+mkdir temp
+cd temp
+wget https://downloads.openwrt.org/releases/18.06.1/targets/x86/64/openwrt-18.06.1-x86-64-combined-ext4.img.gz
+gunzip openwrt*.img.gz
+sudo apt install qemu-utils
+qemu-img convert -f raw -O vmdk openwrt-18.06.1-x86-64-combined-ext4.img openwrt-18.06.1-x86-64-combined-ext4.vmdk
+然后把转好的vmdk文件拷贝到宿主机上，记得备份一份以免后续重新分区时候操作失误是还得重新下。
+3. 扩展磁盘大小，首先将vmdk挂载到vmware，在Ubuntu虚拟机的设置里，点击添加硬盘（需要先把虚拟机关机）

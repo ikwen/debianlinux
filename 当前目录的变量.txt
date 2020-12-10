@@ -1,0 +1,7 @@
+当前目录的变量：
+
+linux $PWD:/root
+
+windows %cd%:/root
+
+来自：https://www.youtube.com/watch?v=7YOVCcCKE2o

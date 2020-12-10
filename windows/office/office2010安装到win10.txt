@@ -1,0 +1,11 @@
+安装环境：windows 10 1903 
+这台电脑之前安装过WPS2019 office 2007 还有系统自带的office365，卸载干净后但注册表并未清除干净，如果此时再安装office 2010会出现很多问题，比如excel 2010打开时会提示“某个对象程序库(|)和丢失或损坏”
+或word2010和excel2010每次打开都提示配置进度，这时主要把注册表的：
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\OFFICE
+HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\OFFICE
+这两个注册表的分支都删除或重命名，然后卸载OFFICE2010再重新安装就不会出现这些提示了。删除注册表的过程中，有些不能删除。但是没有关系的。
+
+还有安装的时候会提示不是64位的安装文件，这时只要删除注册表
+HKEY_CLASSES_ROOT\INSTALLER\PRODUTS
+把这整个分支删除或重命名就可以安装了。
+

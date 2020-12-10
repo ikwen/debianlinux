@@ -1,0 +1,29 @@
+https://elementaryos.cn/
+sudo wget -O - http://package.elementaryos.cn/bionic/key/package.gpg.key | sudo apt-key add -
+sudo io.elementary.code /etc/apt/sources.listdeb http://package.elementaryos.cn/bionic/ bionic main
+sudo apt update
+sudo apt upgrade
+中文软件源配置方法 
+sudo apt install 软件包名sudo apt install deepin.com.qq.officeelementary-tweaks
+wingpanel-indicator-ayatana
+deepin.cn.360.yasuo
+deepin.cn.com.winrar
+deepin.com.baidu.pan
+baidunetdisk
+deepin.com.foxmail
+deepin.com.qq.im
+deepin.com.taobao.wangwang
+deepin.com.thunderspeed
+deepin.com.wechat.devtools
+deepin.com.wechat
+deepin.com.weixin.work
+deepin.org.7-zip
+deepin.org.foobar2OOO
+electron-ssr
+navicat
+netease-cloud-music
+sogoupinyin
+wps-office
+motrix
+anydesk
+symbol-fonts

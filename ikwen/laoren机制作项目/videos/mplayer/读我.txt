@@ -1,0 +1,2 @@
+https://blog.csdn.net/miaotouyang/article/details/8890910
+#运行mplayer自动播放列表文件

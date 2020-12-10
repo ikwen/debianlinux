@@ -1,0 +1,5 @@
+树莓派
+pxe
+nfs
+
+更改默认的图形桌面管理器，gdm3,lightdm.
