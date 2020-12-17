@@ -3,3 +3,13 @@
 这里进到 grub 引导会提示 timed out waiting for device dev/disk/by/x2d uuid 什么 的。
 然后 提示进入busy box 。这时输入root的密码，  用blkid 查看 EFI分区的uuid.
 记下来，替换 /etc/fstab 里的对应uuid即可成功引导系统。
+
+
+
+
+随后遇到更难的问题了：
+root@debian:/boot/grub# grub-install /dev/sda
+Searching for GRUB installation directory ... found: /boot/grub
+The file /boot/grub/stage1 not read correctly.
+
+google了很久也没找到原因。有的说是 mtab文件的问题，但检查了也没发现问题。
