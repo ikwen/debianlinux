@@ -1,0 +1,5 @@
+因重新删除过前面的 windows分区，导致grub出错，搞了好久用U盘也引导不了。
+结果发现BIOS加载U盘的grub.efi 跟U盘的grub.cfg 无关。
+跟/boot/grub/grub.cfg  有关系，所以改了很久都是uuid出错加载不了系统
+
+那个grub还是不能安装到/dev/sda ，现在用U盘引导是正常的。搞个windows 10的引导估计问题不大。

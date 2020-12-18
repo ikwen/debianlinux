@@ -1,0 +1,21 @@
+到现在为止，终于可以通过 bios_EFI引导 grub.efi文件进debian了。
+然后发现引导分区（EFI分区）丢失了也不会是一件可怕的事了，今天又学到了东西。xixi
+
+过程思路：
+o、非常重要的一个问题是uuid在删除过分区后，原来安装debian 的分区的uuid也会变，
+这时要通过blkid命令把uuid复制替换到/boot/grub/grub.cfg文件。不然无法引导。
+替换方法可通过制作debian 的U盘用高级选项的resuce模式。这个模式可以用补全键。
+
+1、一开始通过U盘成功引导过一次进debian 后，一直想着把grub安装到/dev/sda是不对的。因为 grub-install /dev/sda 只适用于传统的BIOS引导，MBR磁盘格式。
+所以会一直提示：The file /boot/grub/stage1 not read correctly.
+而去网上根本找不到答案。
+
+2、grub.efi文件在U盘能在BIOS添加是因为U盘是FAT32格式，放到D盘不能添加是因为NTFS格式。EFI分区，也就是/dev/sda1是FAT32分区的。
+
+3、进PE 用diskgen 不能复制文件到EFI分区，不同分区不能复制文件。在windows磁盘管理器也不能添加盘符，windows限制太多，这时需要把 /dev/sda1 mount 到linux分区即可把grub.efi 复制到EFI分区，然后在BIOS添加文件就可以了。
+
+4、尝试把整个/boot/grub/文件夹复制到EFI分区。然后把grub.efi添加到BIOS_EFI引导。
+新建一个文件夹，名字随意。
+经过测试，和没坏的时候一模一样，完美了，windows  也跑到第三行了。xixi
+
+
