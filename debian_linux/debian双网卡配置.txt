@@ -1,0 +1,58 @@
+https://www.cnblogs.com/surplus/p/12267452.html
+
+柴火堆里学IT
+Debian双网卡配置
+1.单网卡配置
+
+/etc/network/interfaces
+
+auto eth0
+#iface eth0 inet dhcp（默认是DHCP被注释掉）
+iface eth0 inet static
+address 192.168.8.110
+netmask 255.255.255.0
+gateway 192.168.8.1
+
+2.双网卡配置
+
+/etc/network/interfaces
+
+auto eth0
+#iface eth0 inet dhcp（默认是DHCP被注释掉）
+iface eth0 inet static
+address 192.168.8.110
+netmask 255.255.255.0
+gateway 192.168.8.1
+
+auto eth1
+iface eth1 inet static
+address 192.168.0.110
+netmask 255.255.255.0
+gateway 192.168.8.1
+
+（注意eth1没有gateway ）
+
+3.单网卡配置多ip
+
+修改/etc/network/interfaces
+
+auto eth0
+iface eth0 inet static
+address192.168.8.110
+netmask 255.255.255.0
+gateway 192.168.8.1
+
+auto eth0:0
+iface eth0:0 inet static
+address 192.168.0.110
+netmask 255.255.255.0
+
+修改/etc/network/ifstate
+
+lo=lo
+eth0=eth0
+eth0:0=eth0:0
+
+如果没有/etc/network/ifstate，手工创建
+/etc/init.d/networking restart
+注意，eth0:0没有gateway，此方法测试有效
