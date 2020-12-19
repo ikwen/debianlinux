@@ -1,0 +1,34 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+##source /etc/network/interfaces.d/*
+
+# The loopback network interface
+##auto lo
+##iface lo inet loopback
+
+# The primary network interface
+##allow-hotplug enp3s0
+##iface enp3s0 inet dhcp
+
+
+##allow-hotplug enp4s0
+##iface enp4s0 inet dhcp
+
+
+#这个配置文件在/etc/network/
+
+
+auto enp3s0
+#iface eth0 inet dhcp（默认是DHCP被注释掉）
+iface enp3s0 inet static
+address 192.168.5.169
+netmask 255.255.255.0
+gateway 192.168.5.1
+
+auto enp4s0
+iface enp4s0 inet static
+address 192.168.3.169
+netmask 255.255.255.0
+#gateway 192.168.3.1
+

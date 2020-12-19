@@ -56,3 +56,9 @@ eth0:0=eth0:0
 如果没有/etc/network/ifstate，手工创建
 /etc/init.d/networking restart
 注意，eth0:0没有gateway，此方法测试有效
+
+
+
+
+
+https://www.cnblogs.com/Hsin/p/4252845.html  这个是手动搜索下载安装的教程供参考.

@@ -1,0 +1,13 @@
+https://blog.lutty.me/linux/2015-11/debian-install-realtek-driver.html
+
+
+
+Debian 安装 Realtek 网卡驱动
+由 乣璃 · 2015年11月4日
+
+安装 Debian 时系统提示找不到 Realtek 的开源驱动，发现即使安装了 linux-firmware-nonfree 包后依旧不可以，仔细研究了下，发现在包 firmware-realtek 里，所以一句话命令搞定了:
+
+sudo apt-get install firmware-realtek
+重启后生效…
+
+其实搜索在哪个包里很简单，就像下面这样即可
