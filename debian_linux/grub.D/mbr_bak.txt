@@ -1,0 +1,11 @@
+https://blog.csdn.net/xiongyangg/article/details/20629737
+
+
+dd if=/dev/sda of=/boot/boot.NNNN bs=446 count=1
+备份
+
+
+ dd if=/boot/boot.NNNN of=/dev/sda bs=446 count=1
+恢复
+
+
