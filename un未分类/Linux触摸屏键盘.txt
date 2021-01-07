@@ -1,0 +1,25 @@
+https://cupinkie.com/linux-touch-screen.html
+
+Touchegg
+Linux下的多点触摸辅助程序，当然如果只用chrome什么都不用装，chrome对触摸屏支持真的超级有好，绕过系统的那种
+
+sudo apt-get install touchegg build-essential libqt4-dev libx11-6 libx11-dev
+git clone https://github.com/Raffarti/Touchegg-gce.git
+cd Touchegg-gce
+qmake &amp;&amp; make &amp;&amp; sudo make install
+
+
+
+
+
+Onboard
+是个屏幕键盘，挺好用的
+
+谨慎使用 编辑文字时自动显示 可能会炸
+
+sudo apt-get install onboard
+
+
+
+其它：https://zhuanlan.zhihu.com/p/127017220
+如何将智能手机用作Linux的触摸板

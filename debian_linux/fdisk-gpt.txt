@@ -1,0 +1,7 @@
+https://blog.csdn.net/qq_37674858/article/details/107780379
+
+fdisk 
+
+m
+
+g 这就是GPT格式的创建。其实fdisk 很早就支持GPT格式了。
