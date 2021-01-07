@@ -2,6 +2,7 @@ https://greasyfork.org/zh-CN/scripts/387200-youtube-downloader-download-video-up
 
 
 油猴脚本，可以下载1080P
+可以下载，不过界面不是英文的，"Télécharger"  这个是下载的意思。
 
 
 
