@@ -7,3 +7,10 @@ https://greasyfork.org/zh-CN/scripts/387200-youtube-downloader-download-video-up
 
 
 各种浏览器的扩展程序： https://www.clipconverter.cc/fr/addon/
+
+有时也下载不了，不如国产的香。
+
+
+https://greasyfork.org/zh-CN/scripts/369400-local-youtube-downloader
+这个是正在用的，油猴国产"本地 YouTube 下载器
+不需要透过第三方的服务就能下载 YouTube 视频。"
