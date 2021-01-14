@@ -14,3 +14,11 @@ https://greasyfork.org/zh-CN/scripts/387200-youtube-downloader-download-video-up
 https://greasyfork.org/zh-CN/scripts/369400-local-youtube-downloader
 这个是正在用的，油猴国产"本地 YouTube 下载器
 不需要透过第三方的服务就能下载 YouTube 视频。"
+
+国产的也不好用，下载不了有声的1080P  MP4
+
+
+ 
+ 
+https://zh.savefrom.net/1-how-to-download-youtube-video.html
+这个是网站类的， savefrom 使用也简单。1080P 也是语音分离的。气人。
