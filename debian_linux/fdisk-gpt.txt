@@ -5,3 +5,11 @@ fdisk
 m
 
 g 这就是GPT格式的创建。其实fdisk 很早就支持GPT格式了。
+
+
+
+
+
+http://blog.ttionya.com/article-1249.html
+使用Parted为磁盘分区
+首先，你得有一块 GPT 分区的硬盘。 也就是说在linux 下建不了GPT分区吗？？？
