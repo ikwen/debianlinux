@@ -1,0 +1,7 @@
+https://blog.csdn.net/wisnton/article/details/79341707
+
+debian 亲测可用。
+
+
+设置默认的终端
+sudo update-alternatives --config x-terminal-emulator
