@@ -8,3 +8,6 @@ http://pci-ids.ucw.cz  页面的 "PCI drivers"
 https://www.driversdownloader.com/hardware-id/
 
 或百度 硬件ID识别
+
+
+https://support.hp.com/us-en  如果大陆的网址打不开了就用美国这个。
