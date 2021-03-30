@@ -1,0 +1,20 @@
+https://serverfault.com/questions/880950/network-issue-ifup-says-unknown-interface
+
+Have you tried ip link set dev enp0s3  up Does enp0s3 match your configuration in /etc/network/interfaces 
+
+
+今天我把debian 直接装进了U盘里面，既然是跟装进硬盘一样的操作，速度还挻快。惊喜。
+
+我首先是在H61的主板最小化安装了debian ，然后我把这个U盘拿到海尔的台式机运行，进系统后，网络不通。于是一翻google.找到了这个文章。
+
+这里要注意的是：如果你  ip addr add 192.168.3.223/24 dev enp1s0 这样ip是添加了，但在文件 /etc/network/interfaces 这里，记录的还是第一次安装系统的主机:enp2s0。
+所以 ifup  enp1s0会出错，这时只需要把 /etc/network/interfaces 文件里的 enp2s0改为enp1s0就会正常了。
+
+
+When I do  #当我这样做
+
+# ifdown enp0s3
+It says Unknown interface enp0s3
+
+
+Have you tried ip link set dev enp0s3  up Does enp0s3 match your configuration in /etc/network/interfaces ?   #你试过 ip link set dev enp0s3 up 匹配你的配置文件/etc/network/interfaces了吗？  这个是关键。 

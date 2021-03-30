@@ -1,1 +1,7 @@
 https://conversun.com/2019/08/19/OpenClash-SmartDns/   合理的家庭网关方案 OpenClash, 并使用 SmartDNS 加速
+
+
+https://www.youtube.com/watch?v=05T38s5iX1Y&ab_channel=WorldStiv  配置教程
+
+
+https://www.youtube.com/watch?v=keiEyEi45NQ&t=248s&ab_channel=KingFu%E6%99%AF%E7%A6%8F    openwrt安装OpenClash全程记录
