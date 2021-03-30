@@ -10,6 +10,17 @@ Have you tried ip link set dev enp0s3  up Does enp0s3 match your configuration i
 这里要注意的是：如果你  ip addr add 192.168.3.223/24 dev enp1s0 这样ip是添加了，但在文件 /etc/network/interfaces 这里，记录的还是第一次安装系统的主机:enp2s0。
 所以 ifup  enp1s0会出错，这时只需要把 /etc/network/interfaces 文件里的 enp2s0改为enp1s0就会正常了。
 
+allow-hootplug enp2s0 这个也要改。
+这行改好，重新开机就会自动获取IP 了。
+
+ /etc/network/interfaces
+#这里是环回网卡
+auto lo
+ iface lo inet loopback
+#这里是主网卡
+allow-hotplug enp1s0 #即插即用
+iface enp1s0 inet dhcp #自动获取IP
+
 
 When I do  #当我这样做
 
@@ -18,3 +29,12 @@ It says Unknown interface enp0s3
 
 
 Have you tried ip link set dev enp0s3  up Does enp0s3 match your configuration in /etc/network/interfaces ?   #你试过 ip link set dev enp0s3 up 匹配你的配置文件/etc/network/interfaces了吗？  这个是关键。 
+
+到这里可以ping 通内网了，但因为没有设置DNS 还不能上外网。
+于是google  : debian dns  找到  https://wiki.debian.org/NetworkConfiguration
+The configuration file resolv.conf at /etc/resolv.conf
+nameserver 12.34.56.78
+nameserver 12.34.56.79
+改完这里就行了。
+正常是不用改的，因为我的安装那台机，默认是192.168.5.1 ，把它改成192.168.3.1就可以了。
+改完记得重启电脑或
