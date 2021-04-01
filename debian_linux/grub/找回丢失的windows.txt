@@ -1,0 +1,13 @@
+https://my.oschina.net/haopeng/blog/1590016
+
+http://blog.csdn.net/aaazz47/article/details/78643355
+
+ 
+
+sudo grub-mkconfig -o /boot/efi/EFI/GRUB/grub.cfg
+
+# 或者下面这条命令，
+
+具体根据grub.cfg文件的位置来确定就好
+
+sudo grub-mkconfig -o /boot/grub/grub.cfg
