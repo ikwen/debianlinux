@@ -1,0 +1,32 @@
+https://blog.csdn.net/weixin_43274097/article/details/107197717
+
+
+openwrt 19.07报错：module ‘luci.cbi‘ not found
+
+
+Failed to execute cbi dispatcher target for entry '/admin/services/v2ray/global'.
+The called action terminated with an exception:
+/usr/lib/lua/luci/dispatcher.lua:938: module 'luci.cbi' not found:
+no field package.preload['luci.cbi']
+no file './luci/cbi.lua'
+no file '/usr/share/lua/luci/cbi.lua'
+no file '/usr/share/lua/luci/cbi/init.lua'
+no file '/usr/lib/lua/luci/cbi.lua'
+no file '/usr/lib/lua/luci/cbi/init.lua'
+no file './luci/cbi.so'
+no file '/usr/lib/lua/luci/cbi.so'
+no file '/usr/lib/lua/loadall.so'
+no file './luci.so'
+.......
+————————————————
+版权声明：本文为CSDN博主「Mr.Wolf.」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/weixin_43274097/article/details/107197717
+
+
+
+解决办法,分别运行以下两行命令：
+
+opkg update
+opkg install luci luci-base luci-compat
+
+亲测有效。
