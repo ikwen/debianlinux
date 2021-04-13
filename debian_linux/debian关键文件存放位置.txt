@@ -1,0 +1,2 @@
+/etc/init.d/smbd   start|stop|restart   #samba共享服务
+/etc/init.d/networking start|stop|restart  #启重网卡 
