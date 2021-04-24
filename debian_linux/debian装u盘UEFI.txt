@@ -1,0 +1,3 @@
+https://tieba.baidu.com/p/6355569543
+直接装呗，应该就可以。。
+另外页可以把磁盘分区上的系统拷到 U 盘上（fat32 分区），然后在 U 盘中执行 sudo grub-install --target=i386-pc --boot-directory=./boot /dev/sdb 即可。
