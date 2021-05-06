@@ -1,0 +1,23 @@
+https://www.cnblogs.com/hunter-007/p/11151092.html
+
+hunters007
+linux命令行连接wifi
+1.ip addr 查看是否连接，也可查看网卡是否启动和网卡名
+
+
+2.将wifi名和密码写入配置
+wpa_passphrase wifi名 wifi密码 >> /etc/wpa_supplicant/wpa_supplicant.conf
+
+3.加载配置文件
+wpa_supplicant -i 网卡名 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
+
+4.自动分配ip地址,并检验是否成功分配到ip
+dhclient 网卡名
+
+ip addr
+
+
+
+ 
+完了。。。
+
