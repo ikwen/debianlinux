@@ -1,0 +1,2 @@
+machenike 机械革命  F7  boot菜单
+machenike 机械师 ESC  boot菜单
