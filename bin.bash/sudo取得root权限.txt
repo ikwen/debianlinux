@@ -1,0 +1,3 @@
+https://www.yuque.com/books/share/3d36a319-3209-4aef-a3dd-228dc43595a0/ealv88
+输入 sudo –i 取得 root 权限
+

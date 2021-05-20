@@ -1,0 +1,21 @@
+什么是 minerOS
+现在，minerOS经过三年的夯实积累，可以实现对显卡矿机、Asic矿机“降功耗、提算力”的批量智能管理，也可以使算力在“moshash”进行高收益合约流转。minerOS已经成为真正意义上的“矿工管家”，为矿工创造价值！
+
+
+
+https://www.yuque.com/mineros/dmvqri/ytztgz  激活矿机的四种方法
+https://www.yuque.com/mineros/dmvqri   minerOS显卡挖矿教程
+
+https://www.yuque.com/mineros/dmvqri/kv0fu3    安装系统到矿机硬盘
+
+https://www.yuque.com/mineros/dmvqri/fzbght   无盘系统下载与使用
+
+
+https://www.yuque.com/books/share/3d36a319-3209-4aef-a3dd-228dc43595a0/rgngzh 3080挖矿注意事项。 https://item.jd.com/70362781986.html  15W导热硅脂。
+
+https://www.yuque.com/books/share/3d36a319-3209-4aef-a3dd-228dc43595a0/yw983i  P104刷8G
+https://www.yuque.com/books/share/3d36a319-3209-4aef-a3dd-228dc43595a0/ealv88  SSH登录矿机
+
+
+
+https://www.yuque.com/books/share/3d36a319-3209-4aef-a3dd-228dc43595a0/yw983i  云yuque.com挖矿教程。
