@@ -1,0 +1,2 @@
+1066S ETH 31.5Mh/s
+NB gtx2060  BTC  20Mh/s
