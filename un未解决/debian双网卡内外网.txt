@@ -5,3 +5,5 @@
 (谷歌搜索关键字：linux interfaces 双网卡不同网段)
 ubuntu系统配置双网卡，不同网段进行通信
 https://blog.csdn.net/weixin_40933787/article/details/83745630
+
+
