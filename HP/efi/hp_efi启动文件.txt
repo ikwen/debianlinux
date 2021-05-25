@@ -1,0 +1,2 @@
+fs1:\EFI\Boot\startup.nsh 
+后面带个>echo  null 什么的，卡机时可以看到。
