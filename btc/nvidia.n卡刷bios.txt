@@ -1,0 +1,54 @@
+https://www.youtube.com/watch?v=9FfnYOsIOE0&t=213s   视频教程。
+
+
+
+小礦工挖挖礦
+2790位订阅者
+GPU-Z下載:
+https://www.techpowerup.com/download/...
+
+nvidia刷BIOS工具nvflash下載:
+https://www.techpowerup.com/download/...
+
+超龍BIOS下載:
+https://www.techpowerup.com/vgabios/2...
+
+1.鍵盤 win + x
+2.打開系統管理員
+3.輸入CMD
+4.cd C:\Users\user\Desktop\
+5.nvflash -6 MSI.RTX3080.10240.201101.rom
+6.一路y下去
+7.重新開機
+
+
+我的顯示卡(GPU) :  MSI RXT3080 Gaming X Trio
+
+申明 :
+本影片只是自己在更換實驗
+自身遇到無法突破90算力的RTX3080
+所有參數調整都是過了
+故開始對顯卡本身進行調教
+刷BIOS對保固可能有破保問題
+請自己斟酌 感謝各位
+
+AMD GPU 驅動:
+https://www.techpowerup.com/gpu-specs/
+
+ATI AMD顯卡刷BIOS工具:
+https://www.techpowerup.com/download/...
+
+MAX交易所:
+https://max.maicoin.com/signup?r=9627...
+
+幣安礦池:
+https://accounts.binance.com/zh-TW/re...
+
+台灣gpumine礦池:
+https://gpumine.org/tw
+
+挖礦軟體懶人包:
+https://drive.google.com/file/d/1IVrA...
+更改錢包 執行就可以挖
+
+#挖礦 #RTX3080 #挖礦賺錢
