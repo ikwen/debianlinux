@@ -1,2 +1,3 @@
 1066S ETH 31.5Mh/s
 NB gtx2060  BTC  20Mh/s
+GTX 1650 for NB  noAC 8mh/s  forAC 15.65mh/s  lolminer_1.29forlinux  hpNB 
