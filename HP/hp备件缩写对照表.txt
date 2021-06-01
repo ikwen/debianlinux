@@ -1,0 +1,4 @@
+L23186-001	SPS-CARD READER W/USB BD PWR BUTTON CBL	Cable (Internal)	N	  ###  CBL == Cable 
+										          ###  PWR == power
+											  ###  SPS ==备件
+											  ###  DB  ==	??	

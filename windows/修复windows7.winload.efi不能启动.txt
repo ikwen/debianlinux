@@ -1,0 +1,9 @@
+https://zhuanlan.zhihu.com/p/114757364
+
+分区 
+比如旧硬盘是4个分区和一个C盘的。你只想复制C盘
+这时你可以把新硬盘用diskgen分区,UEFI类型，分一个EFI，一个C盘。
+然后进linux 手动mount  ，然后cp -r .
+进WEPE 用 UEFI启动修复即可。
+
+关于系统。 进linux 用 cp -r  复制C盘和EFI分区的文件即可，注意是文件就行了，不用dd. 复制完再修复一下就行了。
