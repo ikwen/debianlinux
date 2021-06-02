@@ -1,4 +1,5 @@
-L23186-001	SPS-CARD READER W/USB BD PWR BUTTON CBL	Cable (Internal)	N	  ###  CBL == Cable 
-										          ###  PWR == power
+L23186-001	SPS-CARD READER W/USB BD PWR BUTTON CBL	Cable (Internal)	N	  ###  CBL == Cable   线
+										          ###  PWR == power   电源
 											  ###  SPS ==备件
-											  ###  DB  ==	??	
+											  ###  BD  == board   印刷电路板
+L48648-001	SPS-TOP COVER NSV MTE W/KB NSV US	Keyboard-Internal	N	Compliant/Exempted                    NSV??  MTE?? W ?? NSV??

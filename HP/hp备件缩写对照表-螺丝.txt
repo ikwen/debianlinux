@@ -1,0 +1,2 @@
+L24494-001	SPS-SCREW KIT	Hardware Kit	N	Compliant/Exempted      screw == 螺丝
+										kit == 组件
