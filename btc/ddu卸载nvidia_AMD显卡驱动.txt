@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=bKOw2pQ9Hak               update display driver
+卸载显卡驱动的工具，nvidia 和AMD的都可以的。卸载完再安装指定版本去挖矿。
+
+3060破解ETH算力? 失败与成功案例
