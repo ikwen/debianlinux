@@ -2,3 +2,14 @@ https://www.youtube.com/watch?v=bKOw2pQ9Hak               update display driver
 卸载显卡驱动的工具，nvidia 和AMD的都可以的。卸载完再安装指定版本去挖矿。
 
 3060破解ETH算力? 失败与成功案例
+470.05破3060显卡挖矿。
+安装windows 10 时不用联网，安装显卡驱动时也不用联网。
+MSI Afterburner  这个超频软件
+把 memory clock 调到1100左右
+power limit 85%
+
+章鱼算法 40左右。
+ETH 26mh/s 
+换卡测试。
+49mh/s  5 usdt一天。
+不同地方买的卡，同一个型号，一个锁算力而且破解不了，一个不锁算力。
