@@ -3,3 +3,5 @@ https://blog.csdn.net/duanlove/article/details/7761867   #apt-get查看已安装
 
 https://ubuntuqa.com/article/13.html  #如何使用apt-get升级单个软件包？       
 apt-get install --only-upgrade <packagename>
+
+缺点就是要等debian源的版本更新才可以更新。
