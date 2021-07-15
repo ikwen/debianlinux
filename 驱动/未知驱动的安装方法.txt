@@ -18,4 +18,7 @@ DriversCollection.com
 然后它说什么 也没找到。还是用google吧。
 google 搜 8086 1911是什么驱动
 第一行   https://cn.driverscollection.com/Search/PCI%5CVEN_8086%26DEV_1911
+找其它不同的驱动，可以直接改网址
+比如     https://cn.driverscollection.com/Search/PCI%5CVEN_8086%26DEV_02A4
+前面8086相同，后面改02A4 就行了。方便。
 点击进去就可以下载了。
