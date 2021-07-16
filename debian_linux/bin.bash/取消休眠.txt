@@ -10,3 +10,10 @@ HandleLidSwitch=ignore
 第二步：
 sudo service systemd-logind restart
 
+=======================================================================
+2021/07/16 
+https://www.cnblogs.com/hookjoy/p/4784361.html
+#xset s 300      #设置屏保时间为300秒，时间单位为秒
+#xset s 0        #关闭屏幕保护
+#xset dpms 0 0 0 # 三个数值分别为Standby、Suspend、Off，单位秒
+#xset -dpms      #关闭电源管理
