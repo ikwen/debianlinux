@@ -4,5 +4,11 @@ EuropeCDN：https://pan.kdbaidu.com/
 
 ChinaCDN：http://pan.akcsss.cn/
 
+
 用motrix 下载。就够了。已经成功下载了一个10GB的文件。
 这个下载工具支持全平台。
+   
+2021-08-01 更新，今天发现上面三个在线解析网站全挂了，太强大了。
+
+百度网盘在线解析 google这个。
+https://pan.xiaoshuyun.cn/?help 找到这个，用chrome插件这个。
