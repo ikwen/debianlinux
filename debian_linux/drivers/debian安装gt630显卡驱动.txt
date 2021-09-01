@@ -1,1 +1,2 @@
 https://linuxconfig.org/how-to-install-nvidia-driver-on-debian-10-buster-linux
+https://www.linuxandubuntu.com/home/how-to-install-latest-nvidia-drivers-in-linux    [How To] Install Latest NVIDIA Drivers In Linux
