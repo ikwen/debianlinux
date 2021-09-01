@@ -1,0 +1,1 @@
+https://linuxconfig.org/how-to-install-nvidia-driver-on-debian-10-buster-linux
