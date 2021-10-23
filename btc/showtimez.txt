@@ -1,0 +1,2 @@
+http://stztech.herokuapp.com/
+showtimez使用的硬件介绍，常见显卡算力，参数等介绍。
