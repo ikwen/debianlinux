@@ -1,0 +1,16 @@
+https://blog.csdn.net/lp_cq242/article/details/102625665
+在你写的批处理文件,开头加上以下三行代码即可
+
+if "%1"=="hide" goto CmdBegin
+start mshta vbscript:createobject("wscript.shell").run("""%~0"" hide",0)(window.close)&&exit
+:CmdBegin
+
+————————————————
+
+版权声明：本文为CSDN博主「lp_cq242」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+
+原文链接：https://blog.csdn.net/lp_cq242/article/details/102625665
+
+或者
+
+%1 mshta vbscript:CreateObject("WScript.Shell").Run("%~s0 ::",0,FALSE)(window.close)&&exit

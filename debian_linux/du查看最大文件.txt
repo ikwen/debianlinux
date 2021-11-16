@@ -1,0 +1,4 @@
+du -am | sort -nr | head -n 10
+
+
+来源：https://www.cnblogs.com/mengchunchen/p/9707834.html

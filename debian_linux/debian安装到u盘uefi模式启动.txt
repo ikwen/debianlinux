@@ -1,0 +1,8 @@
+https://blog.csdn.net/hainan613/article/details/108066342
+
+
+https://emmanuel-galindo.github.io/en/2017/04/05/fixing-debian-boot-uefi-grub/  英文页面，可以翻译。
+
+
+https://wiki.debian.org/UEFI
+https://wiki.debian.org/UEFI#Booting_from_removable_media  debian官网介绍的EFI。

@@ -1,0 +1,18 @@
+debian下重启网卡的几种方法
+weijie Debian 2015 年 09 月 22 日
+方法1，使用ifconfig
+重启eth0：
+
+ifconfig eth0 stop
+ifconfig eth0 start
+方法2，ifdown和ifup:
+
+ifdown eth0
+ifup eth0
+方法三，service重启：
+
+service network restart/stop/start
+
+
+
+https://www.zhangweijie.net/post/2015/09/22/2061.html

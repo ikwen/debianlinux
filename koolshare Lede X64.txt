@@ -1,0 +1,122 @@
+koolshare Lede X64
+固件特性
+64位5.4.52内核，4G以上内存和多核心支持，多核NAT;
+Intel自动省电降频，自动睿频，AES指令集加速，超线程 ，intel QAT硬件加速，MPTCP;
+独有的Koolshare软件中心加成。
+安装方法
+下载后可直接在LEDE WEB升级。也可解压缩后使用ImageWriter等工具直接将img写入U盘或者硬盘。
+如果原来已经刷过openwrt系统，可将Lede-*.img上传到tmp,然后使用命令： dd if=/tmp/Lede-*.img of=/dev/sda写入。此命令将会清除原盘所有数据和分区，请注意备份。
+默认WEB：192.168.1.1 用户名：root 密码：koolshare
+技术支持
+BUG反馈：
+Koolshare论坛LEDE版块
+固件内测体验交流：
+QQ1群（已满）
+QQ2群（可加入）
+用户交流反馈Telegram群
+固件更新日志发布TG频道
+最近更新 2020-07-23
+注意：2.13以前版本固件升级到最新版本会丢失所有配置
+Nuc点击菜单：系统-进阶设置-模式切换-nuc模式
+升级前注意保存配置！
+
+
+下载地址：http://firmware.koolshare.cn/LEDE_X64_fw867/openwrt-koolshare-mod-v2.36-r14941-67f6fa0a30-x86-64-generic-squashfs-combined.img.gz
+
+http://firmware.koolshare.cn/LEDE_X64_fw867/
+
+装好之后。会提示什么非法关键字的。  https://www.youtube.com/watch?v=xSI32moZvRw   这里有教程。
+做法就是输入这行命令就行了。  命令符：sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_install.sh   
+网页打不开终端就用 putty 。
+
+
+接下来安装  clash   
+LEDE(OpenWrt)安装openclash ｜旁路由技巧 ｜ 配置网络流量全部通过旁路由
+https://cloud.tencent.com/developer/article/1693260  这个网页版教程。亲测可用。
+文件先上传到网页的  系 统   文件管理  ，上传后用  putty 安装完所有依赖再安装 。文件后缀是 .ipk的。
+装完重启系统就会出来了。
+
+这个IPK文件我随便有 gitbub找的。 https://github.com/sirpdboy/luci-app-advanced/releases/tag/1.8.3      luci-app-advanced_1.8-3_all.ipk
+ 这里就有一个。
+
+
+
+我现在用的是这个  https://github.com/frainzy1477/luci-app-clash/releases  luci-app-clash_v1.7.5.7_all.ipk
+
+https://github.com/vernesong/OpenClash/releases/tag/v0.42.03-beta  这里点  您也可以手动下载 “Clash内核” 后解压到。  到  OpenClash-使用手册     到  Clash for OpenWrt  
+ 到   v0.16.7
+@frainzy1477 frainzy1477 released this on 28 Nov 2019 · 1 commit to master since this release
+
+停止更新clash ipk,在luci面下载
+
+安装Luc 控制接口 ipk luci-app-clash然后在更新页下载新的clash内核
+
+https://github.com/frainzy1477/luci-app-clash/releases
+
+ 然后找到 
+luci-app-clash_v1.7.5.7_all.ipk
+2.7 MB
+luci-theme-rosy_git-20.040.13689-536cde3-1_all.ipk
+
+
+
+
+安装依赖
+
+opkg update&&opkg install luci&&opkg install luci-base&&opkg install iptables&&opkg install dnsmasq-full&&opkg install coreutils&&opkg install coreutils-nohup&&opkg install bash&&opkg install curl&&opkg install jsonfilter&&opkg install ca-certificates&&opkg install ipset&&opkg install ip-full&&opkg install iptables-mod-tproxy&&opkg install kmod-tun&&opkg install luci-compat
+
+装hello world 需要下面这些依赖。
+opkg update&&opkg install shadowsocksr-libev-alt&&opkg install pdnsd-alt&&opkg install luasocket&&opkg install lua-maxminddb&&opkg install shadowsocks-libev-ss-localopkg install shadowsocksr-libev-ssr-local&&opkg install shadowsocks-libev-ss-redir&&opkg install simple-obfs&&opkg install xray-core&&opkg install trojan&&opkg install ipt2socks&&opkg install xray-plugin&&opkg install shadowsocksr-libev-server
+
+=====================================================
+v0.42.03-beta
+https://github.com/vernesong/OpenClash/releases
+opkg update&&opkg install coreutils-nohup &&opkg install bash&&opkg install iptables&&opkg install dnsmasq-full&&opkg install curl&&opkg install jsonfilter&&opkg install ca-certificates&&opkg install ipset&&opkg install ip-full&&opkg install iptables-mod-tproxy&&opkg install iptables-mod-extra&&opkg install libcap&&opkg install libcap-bin&&opkg install ruby&&opkg install ruby-yaml
+
+================================================
+google  koolshare安装 open clash  
+来到  https://koolclash.js.org/#/
+一个运行在 Koolshare OpenWrt/LEDE 的 Clash 客户端.  按下载 来到
+https://github.com/SukkaW/Koolshare-Clash/releases
+下载  得到  koolclash.tar.gz
+
+
+
+
+============================
+hello world
+github.com/jerrykuku/luci-app-vssr
+
+
+https://my.oschina.net/u/4277346/blog/4532489   装ssr 提示权限不足解决方法。
+
+
+
+
+******************************************************************************************************************************************************************************************************
+注意：以上为错误示范
+google  koolshare安装 open clash  找到  SukkaW/Koolshare-Clash · GitHub    点   在 GitHub Release       https://github.com/SukkaW/Koolshare-Clash/blob/master/docs/install.md
+https://github.com/SukkaW/Koolshare-Clash/releases/tag/0.17.9-beta
+点  SukkaW
+/
+Koolshare-Clash 再点laste 版本 
+就会有下载了。
+
+真尼玛捉迷藏。
+
+
+安装
+下载
+在 GitHub Release 页面查看更新日志、下载离线安装包；Pre-release 是不稳定版、Release 是稳定版。
+
+?> 稳定和不稳定是相对的。KoolClash 不能保证稳定版能够保证百分百正常运行！
+
+在你选择的版本的「Assets」中找到 koolclash.tar.gz，点击下载 KoolClash 的离线安装包。
+
+安装
+前往 Koolshare OpenWrt/LEDE 的管理页面，点击左侧的「酷软」进入「koolshare Openwrt 软件中心」，在「离线安装」选项卡，选择你刚才从 GitHub Release 上下载的 koolclash.tar.gz 文件，点击「上传并安装」。
+
+
+
+安装完成后，软件中心页面会自动跳转，在软件列表中找到 koolclash，点击进入。
+

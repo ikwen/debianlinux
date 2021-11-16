@@ -1,0 +1,25 @@
+network-manager-vpnc-gnome - 网络管理框架(VPNC GNOME GUI 插件)
+gnome-shell-extension-hide-veth - hides veth devices typically used by docker and lxc
+network-manager - network management framework (daemon and userspace tools)
+network-manager-config-connectivity-debian - NetworkManager configuration to enable connectivity checking
+network-manager-dev - network management framework (development files)
+network-manager-gnome - network management framework (GNOME frontend)
+network-manager-fortisslvpn - network management framework (Fortinet SSLVPN plugin core)
+network-manager-fortisslvpn-gnome - network management framework (Fortinet SSLVPN plugin GNOME GUI)
+network-manager-l2tp - network management framework (L2TP plugin core)
+network-manager-l2tp-gnome - network management framework (L2TP plugin GNOME GUI)
+network-manager-openconnect - network management framework (OpenConnect plugin core)
+network-manager-openconnect-gnome - network management framework (OpenConnect plugin GNOME GUI)
+network-manager-openvpn - network management framework (OpenVPN plugin core)
+network-manager-openvpn-gnome - network management framework (OpenVPN plugin GNOME GUI)
+network-manager-pptp - network management framework (PPTP plugin core)
+network-manager-pptp-gnome - network management framework (PPTP plugin GNOME GUI)
+network-manager-ssh - network management framework (SSH plugin core)
+network-manager-ssh-gnome - network management framework (SSH plugin GNOME GUI)
+network-manager-strongswan - network management framework (strongSwan plugin)
+network-manager-vpnc - network management framework (VPNC plugin core)
+strongswan-nm - strongSwan plugin to interact with NetworkManager
+
+
+ apt-cache search network-manager
+

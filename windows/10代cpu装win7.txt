@@ -1,0 +1,21 @@
+http://www.dnxtc.net/zixun/itzixun/2020-06-03/5050.html
+https://blog.csdn.net/weixin_32605973/article/details/113039829
+https://next.itellyou.cn  纯净软件下载。
+win7 smart tool http://www.pc6.com/softview/SoftView_627774.html
+
+=================================================================
+Intel USB 3.0/3.1 eXtensible Host Controller Driver  面向MS Windows（32位）的更新包 
+文件格式：
+面向MS Windows（32位）的更新包
+文件名：
+Chipset_Driver_81H46_WN32_5.0.1.38_A01.EXE
+下载类型：
+HTTP
+文件大小：
+13.08 MB
+格式说明:
+Microsoft Windows 32位格式中的戴尔更新包(DUP)设计为可以在Microsoft Windows 64位操作系统上运行。Microsoft Windows 64位格式中的戴尔更新包(DUP)仅可在Microsoft Windows 64位操作系统上运行。选择设备驱动程序更新时，请务必选择适合您的操作系统的更新
+https://www.dell.com/support/home/zh-cn/drivers/DriversDetails?driverId=81H46
+https://www.dell.com/support/home/zh-cn/drivers/driversdetails?driverid=wctxw
+===========================================================================
+

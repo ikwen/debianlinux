@@ -1,0 +1,24 @@
+https://www.jianshu.com/p/5ae17c95f420
+
+vim 设置配色方案
+先看看vim编辑器提供的色彩配置方案：
+首先进入vim的color目录（/usr/share/vim/vim74/colors,不同的系统目录不同，建议在～/建立.vim目录，然后在些目录里建立对应的文件夹和文件）
+
+$ ls /usr/share/vim/vim62/colors
+blue.vim delek.vim evening.vim murphy.vim README.txt torte.vim
+darkblue.vim desert.vim koehler.vim pablo.vim ron.vim zellner.vim
+default.vim elflord.vim morning.vim peachpuff.vim shine.vim
+
+然后再自己的~HOME/建立一个 .vimrc文档
+
+[$ vi .vimrc
+:colorscheme evening
+
+，假如选择其他的方案 只要替换 evening 就能够了！
+然后再打开vim 看一下是不是颜色变得好看了！
+
+但我更喜欢desert
+hohoho~~~
+
+colorscheme真的可以我特别不喜欢看代码的时候有那种深蓝色的， 我一般用的是colorscheme desert 。我不知道怎么让vim打开时就是colorscheme desert。 我的解决办法是在/etc/vim/vimrc的最后加上colorscheme desert这行。如果你不喜欢desert主题你可以在一个打开的vim里的命令模式里输入“:colorscheme ” 然后按Tap键，它会自动切换不同主题的名字。
+

@@ -1,0 +1,2 @@
+任意设备实现播放自家本地IPTV，外网也可以播放直播M3U+WEB+VPN
+https://www.youtube.com/watch?v=LTA0B437w_k&ab_channel=VedioTalk

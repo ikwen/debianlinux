@@ -1,0 +1,3 @@
+machenike
+ acpi\ven_clv&dev_0001
+装完官网的驱动后，还有黄色叹号，然后再在设备管理器用windows更新一下就正常了。

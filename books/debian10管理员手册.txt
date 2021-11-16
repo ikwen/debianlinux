@@ -1,0 +1,6 @@
+Debian 管理员手册中文版
+https://debian-handbook.info/browse/zh-CN/stable/
+https://debian-handbook.info/get/  这是手册官网
+
+https://www.debian.org/doc/manuals/debian-handbook/sect.book-structure.zh-cn.html  
+ 这个是debian官网

@@ -1,0 +1,33 @@
+到现在为止，终于可以通过 bios_EFI引导 grub.efi文件进debian了。
+然后发现引导分区（EFI分区）丢失了也不会是一件可怕的事了，今天又学到了东西。xixi
+
+过程思路：
+o、非常重要的一个问题是uuid在删除过分区后，原来安装debian 的分区的uuid也会变，
+这时要通过blkid命令把uuid复制替换到/boot/grub/grub.cfg文件。不然无法引导。
+替换方法可通过制作debian 的U盘用高级选项的resuce模式。这个模式可以用补全键。
+
+1、一开始通过U盘成功引导过一次进debian 后，一直想着把grub安装到/dev/sda是不对的。因为 grub-install /dev/sda 只适用于传统的BIOS引导，MBR磁盘格式。
+所以会一直提示：The file /boot/grub/stage1 not read correctly.
+而去网上根本找不到答案。
+
+2、grub.efi文件在U盘能在BIOS添加是因为U盘是FAT32格式，放到D盘不能添加是因为NTFS格式。EFI分区，也就是/dev/sda1是FAT32分区的。
+
+3、进PE 用diskgen 不能复制文件到EFI分区，不同分区不能复制文件。在windows磁盘管理器也不能添加盘符，windows限制太多，这时需要把 /dev/sda1 mount 到linux分区即可把grub.efi 复制到EFI分区，然后在BIOS添加文件就可以了。
+
+4、尝试把整个/boot/grub/文件夹复制到EFI分区。然后把grub.efi添加到BIOS_EFI引导。
+新建一个文件夹，名字随意。
+经过测试，和没坏的时候一模一样，完美了，windows  也跑到第三行了。xixi
+
+5、关于备份，也有了更多的想法，
+之前的windows 10 用 ghost备份了无法引导，看来也要把EFI分区做个ghost ，可更简单地把EFI分区的文件复制出来备份好，windows10的分区还原后再手动把文件通过debian mount /dev/sda1 然后 把文件复制回去，这个待测。
+关系 debian 的备份，可以尝试用救援模式，这个相当于PE，把系统的分区mount 出来复制到其它硬盘的分区，然后再通过重建EFI分区。这个也待测。
+
+
+以下更新自2021/03/16 今天因为公司里的PC 1TB硬盘满了。就加了个3TB的硬盘，因为MBR最大支持1.8TB的原因，故使用了GPT格式。安装windows 10  装完后装 debian .然后用再生龙把旧的debian分区对拷过来，再然后就不能引导了。提示grub_ _ 
+。因主板是H 61 上面bios 添加grub.efi的方法并不适用。
+经过一番思考我终于明白为什么会无法引导了，因为1TB硬盘的分区数量和3TB新硬盘的不同。导致了grub的配置不同。
+
+刚开始时是用再生龙做硬盘复制，这里也有问题。1TB硬盘是MBR格式的，复制完到3TB时debian的系统分区提示出错， MBR的格式 并不支持超1.8TB后面的硬盘，我复制完后也发现有很多空间没有使用。进windows 添加分区又提示超过最多分区数量。
+就算新建一个分区，也不能把所有容量用完。
+
+当我想把boot文件夹备份的时候。我是这样做的。进救援模式。 mount /dev/sdb4 /mnt  ;  cp -r /boot/ /mnt  结果我的U盘的引导变成了和硬盘的引导一样了。 debian安装U盘不能正常引导了。由此可以知道，如果先备份好boot文件夹，再用再生龙复制分区，复制完后把boot文件夹复制回来应该可行。

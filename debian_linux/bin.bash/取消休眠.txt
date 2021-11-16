@@ -1,0 +1,19 @@
+https://www.cnblogs.com/yanglai/p/6874496.html
+
+让debian8.8不休眠，debian设置不休眠模式，因为我的本本休眠了时间不准确了，得重新同步
+第一步：sudo vi /etc/systemd/logind.conf   /*最好备份下再修改*/
+把下面的参数改为
+HandleLidSwitch=
+HandleLidSwitch=ignore
+
+
+第二步：
+sudo service systemd-logind restart
+
+=======================================================================
+2021/07/16 
+https://www.cnblogs.com/hookjoy/p/4784361.html
+#xset s 300      #设置屏保时间为300秒，时间单位为秒
+#xset s 0        #关闭屏幕保护
+#xset dpms 0 0 0 # 三个数值分别为Standby、Suspend、Off，单位秒
+#xset -dpms      #关闭电源管理

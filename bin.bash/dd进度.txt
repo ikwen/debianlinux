@@ -1,0 +1,18 @@
+https://qastack.cn/ubuntu/215505/how-do-you-monitor-the-progress-of-dd
+
+例
+dd if=/dev/urandom of=/dev/null status=progress
+输出量
+462858752 bytes (463 MB, 441 MiB) copied, 38 s, 12,2 MB/s
+
+
+方法2：
+安装pv并放在仅输入/输出dd命令之间。
+
+sudo apt-get install pv
+例
+
+dd if=/dev/urandom | pv | dd of=/dev/null
+输出量
+
+1,74MB 0:00:09 [ 198kB/s] [      <=>                               ]

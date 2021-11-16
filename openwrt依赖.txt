@@ -1,0 +1,29 @@
+https://github.com/vernesong/OpenClash/issues/363
+
+加 强制 参数可以解决依赖。
+
+尝试force安装
+root@OpenWrt:/tmp/upload# opkg install luci-app-openclash_0.37.4-beta_all.ipk --force-depends
+Installing luci-app-openclash (0.37.4-beta) to root...
+Installing kmod-nf-reject6 (5.4.34-1) to root...
+Downloading https://openwrt.proxy.ustclug.org/snapshots/targets/x86/64/packages/kmod-nf-reject6_5.4.34-1_x86_64.ipk
+Installing kmod-nf-ipt6 (5.4.34-1) to root...
+Downloading https://openwrt.proxy.ustclug.org/snapshots/targets/x86/64/packages/kmod-nf-ipt6_5.4.34-1_x86_64.ipk
+Installing kmod-ip6tables (5.4.34-1) to root...
+Downloading https://openwrt.proxy.ustclug.org/snapshots/targets/x86/64/packages/kmod-ip6tables_5.4.34-1_x86_64.ipk
+Installing kmod-ipt-tproxy (5.4.34-1) to root...
+Downloading https://openwrt.proxy.ustclug.org/snapshots/targets/x86/64/packages/kmod-ipt-tproxy_5.4.34-1_x86_64.ipk
+Installing iptables-mod-tproxy (1.8.4-1) to root...
+Downloading https://openwrt.proxy.ustclug.org/snapshots/targets/x86/64/packages/iptables-mod-tproxy_1.8.4-1_x86_64.ipk
+Configuring kmod-nf-reject6.
+Configuring kmod-nf-ipt6.
+Configuring kmod-ip6tables.
+Configuring kmod-ipt-tproxy.
+Configuring iptables-mod-tproxy.
+Configuring luci-app-openclash.
+Collected errors:
+ * satisfy_dependencies_for: Cannot satisfy the following dependencies for luci-app-openclash:
+ * 	kernel (= 5.4.34-1-9100f2f85d030b2d75515447a431bff7)
+再次运行，提示已经安装：
+root@OpenWrt:/tmp/upload# opkg install luci-app-openclash_0.37.4-beta_all.ipk --force-depends
+ Package luci-app-openclash (0.37.4-beta) installed in root is up to date.

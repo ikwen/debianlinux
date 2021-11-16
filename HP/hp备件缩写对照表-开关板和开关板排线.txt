@@ -1,0 +1,2 @@
+L24483-001	SPS-CARD READER AND PWR BUTTON BD	PC Board (Interface)	N	Compliant   这个是带TYPE -C 接口和电源按钮的开关小板。
+L23186-001	SPS-CARD READER W/USB BD PWR BUTTON CBL	Cable (Internal)	N	Compliant   这个是开关小板连接主板的排线。

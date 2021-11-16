@@ -1,0 +1,8 @@
+1066S ETH 31.5Mh/s
+NB gtx2060  BTC  20Mh/s
+GTX 1650 for NB  noAC 8mh/s  forAC 15.65mh/s  lolminer_1.29forlinux  hpNB 
+GTX  1060 6GB  NB F117 forAC 19.35MH/s t-rex  forHiveOS 
+
+GTX 2070  雷神 NB  ergo 55.92MH/s  power 49-57-62-81-114 POOL:35MH/s 温度：90
+	ikwenNBtest	63.60 MH/s	29.33 MH/s	33.61 MH/s	33.61 MH/s
+			   当前		   1小时           6小时           24小时

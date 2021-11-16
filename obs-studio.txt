@@ -1,0 +1,6 @@
+https://obsproject.com/wiki/install-instructions#linux
+
+官网看文档。
+
+直接 apt 搜 obs-studio就能安装。
+debian 源默认有

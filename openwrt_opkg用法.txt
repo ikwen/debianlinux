@@ -1,0 +1,2 @@
+https://blog.csdn.net/qq_28588941/article/details/108434111
+Openwrt下ipk包的安装、卸载与更新

@@ -1,0 +1,11 @@
+当github 上传超过100MB文件时，github 会拒绝，但这样在github网站上会显示一个有箭头的文件夹，删也删不掉，上传又上传不上去。怎么办呢？
+
+1、在github 把仓库删除了。  参考  https://jingyan.baidu.com/article/215817f788f0c21eda1423f2.html
+
+2、把本地文件夹 .git  整个删除。
+
+3、把git 缷载（这步不一定要做）
+
+4、重新添加关联远程仓库。 参考https://www.liaoxuefeng.com/wiki/896043488029600/898732864121440
+
+git remote add origin git@github.com:michaelliao/learngit.git

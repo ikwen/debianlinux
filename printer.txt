@@ -1,0 +1,4 @@
+https://wiki.debian.org/zh_CN/SystemPrinting#Brother.2B.2FwhRRF8f.2Fwk-  #参考官方wiki  #里面有samba 共享打印机的方法。
+apt-cache search system-config-printer 
+apt-cache search driver|grep printer|more
+apt-cache search system-config|grep printer

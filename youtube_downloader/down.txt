@@ -1,0 +1,24 @@
+https://greasyfork.org/zh-CN/scripts/387200-youtube-downloader-download-video-up-to-8k-and-audio-in-mp3-flac-and-more-in-hq-up-to-320-kbps
+
+
+油猴脚本，可以下载1080P
+可以下载，不过界面不是英文的，"Télécharger"  这个是下载的意思。
+
+
+
+各种浏览器的扩展程序： https://www.clipconverter.cc/fr/addon/
+
+有时也下载不了，不如国产的香。
+
+
+https://greasyfork.org/zh-CN/scripts/369400-local-youtube-downloader
+这个是正在用的，油猴国产"本地 YouTube 下载器
+不需要透过第三方的服务就能下载 YouTube 视频。"
+
+国产的也不好用，下载不了有声的1080P  MP4
+
+
+ 
+ 
+https://zh.savefrom.net/1-how-to-download-youtube-video.html
+这个是网站类的， savefrom 使用也简单。1080P 也是语音分离的。气人。

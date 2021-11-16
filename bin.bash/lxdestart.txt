@@ -1,0 +1,7 @@
+没有登入管理器，只使用 startx
+请执行以下指令：
+
+sudo update-alternatives --config x-session-manager
+然后选择 startlxde。当下次您执行 startx 时，LXDE 会自动启动。
+
+https://wiki.lxde.org/zh/index.php?title=Debian&variant=zh-hans#XDM

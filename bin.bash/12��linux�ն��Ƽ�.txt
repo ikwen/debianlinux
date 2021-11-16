@@ -1,0 +1,7 @@
+https://www.huaweicloud.com/articles/86abd85a8048b82412d0908c98cb39d9.html
+
+除了这些还 有一个中文支持的。zhcon.
+
+
+
+https://www.zhihu.com/question/267402662/answer/325361220 这里探讨了linux终端如何输入中文。
