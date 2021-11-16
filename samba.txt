@@ -49,3 +49,5 @@ dos charset = cp936
 max connections = 1000
 
 #service smbd restart  重启smbd 服务
+
+.
