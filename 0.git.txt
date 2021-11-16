@@ -1,0 +1,14 @@
+1、cd git
+git init
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
+
+2、git remote add origin git@github.com:ikwen/debianlinux.git
+3、sh gitpull.sh 
+
+
+若出错 
+git pull origin master --allow-unrelated-histories&&git add .&&git commit -m "zhengji"&&git push origin master&&echo "hello,ikwen,github is update OKOKOK"
