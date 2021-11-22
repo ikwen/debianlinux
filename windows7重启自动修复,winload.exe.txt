@@ -1,0 +1,2 @@
+有时windows7启动时会出现无法修复系统的故障。
+这时只需要去正常的电脑复制 winload.exe 放到c:\windows\system32 替换故障机即可解决问题。

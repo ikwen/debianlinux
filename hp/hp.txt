@@ -1,0 +1,10 @@
+======================================
+机器黑屏后
+win+b 可以恢复BIOS 
+========================================
+查硬件ID 相关的三个网址
+
+http://pci-ids.ucw.cz  页面的 "PCI drivers"
+https://www.driversdownloader.com/hardware-id/
+
+或百度 硬件ID识别

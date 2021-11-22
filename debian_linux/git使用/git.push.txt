@@ -1,0 +1,50 @@
+git init \\初始化
+git add "file"  \\添加一个文件
+git commit -m "备注" \\备注不要不可以
+git remote add origin https://github.com/你github的名字/你的库.git
+git push -u origin master //oring=本地  master=远程  同步推送
+ \\就这么多
+
+ ==========================================================================
+\\文件或文件夹重命名后，怎么在git中提交？
+ 首先您要add进去
+
+git add .  ->这个是添加所有修改文件
+
+然后commit
+
+git commit -m 'message'
+
+最后push
+
+git push
+
+==========================================================================
+参考来源：https://www.cnblogs.com/yiduobaozhiblog1/p/9125465.html
+在github.com 上编辑README.md 文件后git push 推送失败
+
+如何解决failed to push some refs to git
+
+
+出现错误的主要原因是github中的README.md文件不在本地代码目录中
+
+git pull --rebase origin master
+==========================================================================
+参考来源：https://blog.csdn.net/u014303647/article/details/81389690
+换电脑/系统后,,如何同步github上原有的项目呢?
+在本地文件夹，打开终端
+1 git init()
+2 git remote add origin https://github.com/username/xxxx.git
+3 git add .
+4 git commit -m "message"
+5 push origin master
+-----------------------------------
+*对于已有的仓库,在本地文件夹，打开终端
+1 git init                                            仓库名字
+2 git remote add origin https://github.com/username/xxxx.git    //建立远程连接
+3 $git fetch origin    //获取远程更新
+4 $git merge origin/master //把更新的内容合并到本地分支
+5 git add . //加入差异的文件,就是本地修改的文件
+6 git commit -m "message"
+7 git push origin master
+========================================================================

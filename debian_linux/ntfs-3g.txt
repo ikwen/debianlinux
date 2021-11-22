@@ -1,0 +1,4 @@
+apt-get install ntfs-3g
+装了这个，以后就可以直接mount NTFS格式的文件系统了，太方便了。比如 mount /dev/nvme0n1p4 /mnt
+如果不安装，就会报错，未识别的文件系统 ntfs.
+这个是在我的 debian to go U盘系统测试成功的。

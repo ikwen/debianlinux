@@ -1,0 +1,9 @@
+内网刚开始的时候能ping 通，过一会就不行了。共享文件夹也可以打开，但过一会就断开链接了。
+
+
+尝试一：
+(谷歌搜索关键字：linux interfaces 双网卡不同网段)
+ubuntu系统配置双网卡，不同网段进行通信
+https://blog.csdn.net/weixin_40933787/article/details/83745630
+
+

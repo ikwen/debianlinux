@@ -1,0 +1,3 @@
+https://sub.sdncimcin.xyz/link/TSLYkP8FTnaj1o0T?clash=1&newconf=0             clash旧
+
+https://sub.sdncimcin.xyz/link/TSLYkP8FTnaj1o0T?clash=1  clash新    适用于windows x64客户端及 openwrt里的open clash.

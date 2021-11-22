@@ -1,0 +1,12 @@
+https://www.clamav.net/documents/installation-on-debian-and-ubuntu-linux-distributions
+
+
+
+亲测失败的项目，安装后不知道怎么运行。
+
+
+
+其实官网也有 debian apt 的安装方法的，很简单。
+
+
+https://www.youtube.com/watch?v=SbGjV4N7hto&ab_channel=joezomby1  这里是个视频安装教程。

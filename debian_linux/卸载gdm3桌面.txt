@@ -1,0 +1,1 @@
+dpkg -P gnome*  后面的*一定要带上，不然进不了lxde桌面，一直进gnome3桌面。

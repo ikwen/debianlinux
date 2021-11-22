@@ -1,0 +1,27 @@
+https://blog.csdn.net/zzzgd_666/article/details/80290458
+
+C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Default\Extensions\padekgcemlokbadohgkifijomclgjgif
+
+
+
+=======================================================================
+https://zhidao.baidu.com/question/386807793.html
+
+安装chrome浏览器扩展是无法安装 出现 程序包无效，详细信息：“Manifest file is
+安装chrome浏览器扩展时报错 程序包无效，详细信息：“Manifest file is invalid"
+
+还在不在？我也是出现了这个问题，自己写了个一个程序结果不能安装。也是提示的是manifest file is invalid
+追问
+已经解决 你在运行中输入chrome.exe --pack-extension=【扩展的文件包路径】--pack-extension-key=【密钥文件路径】  就ok了
+如果直接用chrome打包的话是有问题的
+追答
+谢谢，我也通过命令成功了。还在不在？我也是出现了这个问题，自己写了个一个程序结果不能安装。也是提示的是manifest file is invalid
+追问
+已经解决 你在运行中输入chrome.exe --pack-extension=【扩展的文件包路径】--pack-extension-key=【密钥文件路径】  就ok了
+如果直接用chrome打包的话是有问题的
+追答
+谢谢，我也通过命令成功了。
+
+
+原因很奇怪，是源代码的目录放得太深了，放在根目下打包就安装成功。
+应该是chrome的BUG，看到有国外的开发者提交BUG单了

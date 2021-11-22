@@ -1,0 +1,53 @@
+不能访问：
+首先要在linux 里有个用户名，密码不用也可以，新建普通用户：
+useradd admin
+提示成功后，在samba 用户管理新增linux 系统的用户。
+smbpasswd add admin
+它提示你设置密码两次。
+然后就可以访问了。
+
+下面岾上smb.conf 的配置文件：
+[global]
+interfaces = lo enp3s0 192.168.3.169/24
+hosts allow = 127. 192.168.3.
+#security = share
+#security = user
+browseable = yes
+available = yes
+hosts allow= ALL
+workgroup = WORKGROUP
+wins support = no
+
+#只读
+[file$]
+path = /home/file
+available = yes
+hosts allow=192.168.3.
+public = yes
+writable = no
+guest ok = yes
+#write list = admin(可以写入的用户列表)
+valid users = admin
+#display charset=UTF-8
+unix charset = UTF-8
+dos charset = cp936
+max connections = 1000
+
+#可写
+[tempw$]
+path = /home/tempw
+available = yes
+hosts allow=192.168.3.
+public = yes
+writable = no
+guest ok = yes
+write list = admin
+valid users = admin
+#display charset=UTF-8
+unix charset = UTF-8
+dos charset = cp936
+max connections = 1000
+
+#service smbd restart  重启smbd 服务
+
+.

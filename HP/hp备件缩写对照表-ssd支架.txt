@@ -1,0 +1,4 @@
+L24488-001	SPS-SSD BRACKET	Hardware Kit	N	Compliant    
+bracket ==支架
+hardware kit == 硬件套件
+compliant == 兼容

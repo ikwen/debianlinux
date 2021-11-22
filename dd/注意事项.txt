@@ -1,0 +1,23 @@
+今天忙了一天，就为了dd 这个软路由。但一直不成功。提示：
+
+root@debian:/home/ikwen/testing/openwrt.by.googledown/精简版# dd if=./openwrt-x86-64-squashfs-combined-201231-Mask.img of=/dev/sdc bs=4M
+记录了138+1 的读入
+记录了138+1 的写出
+
+
+几秒钟就完了，然后换到PE 用winimg也不行。忙了好久。
+最后再用dd突然发现这硬盘一插上就自动挂载了，umount 后既然正常了，太累人了。
+[200~root@debian:/home/ikwen/testing/openwrt.by.googledown/精简版# dd if=./openwrt-x86-64-squashfs-combined-201231-Mask.img of=/dev/sdc bs=4M
+记录了138+1 的读入
+记录了138+1 的写出
+582483968 bytes (582 MB, 556 MiB) copied, 0.325185 s, 1.8 GB/s
+
+
+umount 后。
+
+root@debian:/home/ikwen/testing/openwrt.by.googledown/精简版# dd if=./openwrt-x86-64-squashfs-combined-201231-Mask.img of=/dev/sdc bs=4M
+记录了138+1 的读入
+记录了138+1 的写出
+582483968 bytes (582 MB, 556 MiB) copied, 20.2674 s, 28.7 MB/s
+
+就这点区别。

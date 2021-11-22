@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=KYmAK-an4r0&ab_channel=%E6%B1%9F%E5%8D%97%E4%B8%80%E6%A0%B9%E8%91%B1
+
+
+以下是作者分享的链接
+
+视频中的文件包下载链接    https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnR1TFFRZEk3OVBRN3RCc2lyLU1iWmc1THVUd3xBQ3Jtc0trVHlvNmxfRThBVnF2M2tyNU1QNkxPTTQ2UkJNRGoxOVhE
+
+
+本次使用的文件包下载链接:链接：https://share.weiyun.com/5AYfB2x​ 密码：rd2j93
+
+
+
+==================================================
+其它相关：
+ipxefm是一款基于ipxe创作的网启方案，高度山寨grubfm的目录结构，可以很方便地定制菜单和管理网启文件，支持wim/iso/img/vhd/ramos/iscsi
+下载链接：https://share.weiyun.com/CMkHDiOe​ 密码：yr8yr6
+脚本更新项目:https://github.com/zwj4031/ipxefm​
+网络启动-IT技术交流群 QQ群号:146859089讨论和下载最新工具、
+
+https://www.youtube.com/watch?v=MkTSklhzk_M&ab_channel=%E6%B1%9F%E5%8D%97%E4%B8%80%E6%A0%B9%E8%91%B1
+
+ipxefm应用-批量装机、全自动分区、p2p分发，用你最熟悉的BT种子快速给500台机安装系统

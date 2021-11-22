@@ -1,0 +1,10 @@
+acer服务中心  找到 http://css.acer.com.cn/cssv7/knowledge/read.aspx?kbid=KB160107001
+
+如何通过EFI方式刷新BIOS
+
+下载文件：http://eKB.acer.com.cn/KB/工具与软件/DT/How to flash BIOS from UEFI Bootable USB flash drive.pdf
+
+http://eKB.acer.com.cn/KB/工具与软件/DT/efi.zip
+
+制作U盘，问罗经理要BIOS 文件。然后刷好BIOS 。换的主板是方正的LOGO 就会变为acer的LOGO 
+

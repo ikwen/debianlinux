@@ -1,0 +1,17 @@
+https://www.vpsee.com/2011/06/how-to-find-out-a-linux-system-installation-date/
+
+用很久的时间去打造好自己的debian ，当然不想它像windows 一样脆弱，
+所以想知道自己的debian安装的时候的日期是什么时候，有一行代码可以帮你定个大概。
+
+ls -ldh /etc/skel
+
+
+
+
+root@debian:/home/ikwen/git/grub引导# vi 查看linux安装日期.txt
+root@debian:/home/ikwen/git/grub引导# passwd -S bin
+bin L 03/08/2020 0 99999 7 -1
+root@debian:/home/ikwen/git/grub引导# ls -ldh /etc/skel
+drwxr-xr-x 4 root root 4.0K 3月   8  2020 /etc/skel
+
+两个结果都一样。

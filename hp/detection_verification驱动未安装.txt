@@ -1,0 +1,1 @@
+detection verification 驱动未安装，下载惠普管家（HP Support Assistant）安装驱动即可。这个其实是一个Realtek 高保真（HD)声卡驱动。只是用360硬件大师或驱动精灵或windows系统更新都检测不出来。本次机型为HP PAVILION

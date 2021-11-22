@@ -1,0 +1,5 @@
+SPS-eMMC/SSD BD CABLE	eMMC 是一个起源较早的技术，全称叫 embedded MultiMedia Card，为什么单单e是小写呢？ 因为先有的MMC啊。所谓MMC，大家可能没听过但可能见过，相机中用得较多，和SD卡长得很像（之前的图片就搞错了，感谢评论中各位的提醒）。
+
+
+
+https://zhuanlan.zhihu.com/p/26551438   这里有 详细的介绍。

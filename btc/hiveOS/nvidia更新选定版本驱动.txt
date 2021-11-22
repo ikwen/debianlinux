@@ -1,0 +1,37 @@
+https://hiveos.farm/guides-driver_upd/
+
+
+对于英伟达
+从 0.5-70 版本开始，操作系统中集成了一个脚本，可以安装最新、最高效的 NVIDIA 驱动程序，可以通过两种方式激活：使用 Hive OS Web 界面或通过 SSH 连接：
+
+nvidia-driver-update
+
+要查看可用于更新的完整版本列表，请运行命令nvidia-driver-update --list
+
+
+输入版本号： 比如 460.39 即可指定切换为这个版本的驱动。
+
+
+
+
+对于 AMD
+AMD 驱动程序更新只能与 Hive OS 映像更新一起执行。
+
+
+
+
+您可以在此处从可用版本中选择您需要的版本。
+
+要安装所需的版本，只需输入以下命令： nvidia-driver-update 455.38
+
+或者只需指定一系列驱动程序，将安装该系列的最大可用版本： nvidia-driver-update 455
+
+如有必要，您可以写下包含驱动程序软件的存档所在的完整地址： nvidia-driver-update https://download.hiveos.farm/drivers/NVIDIA-Linux-x86_64-392.61.run
+
+驱动程序可以在软件集中找到：https : //download.hiveos.farm/drivers/。
+
+在某些情况下，更新后，超频设置可能不起作用。要返回以前的功能，您只需要编写以下命令： apt install --reinstall -y nvidia-settings
+
+你这里不应该有任何问题。如果出现任何错误，您需要再次输入命令 - 一切都会正常进行。
+
+如果它根本不起作用并且您收到诸如“卸载模块失败”（或类似的东西）之类的错误，您可以尝试在不加载驱动程序的情况下启用维护模式，重新启动并重复更新过程。

@@ -1,0 +1,22 @@
+Release life cycle
+Debian announces its new stable release on a regular basis. Users can expect 3 years of full support for each release and 2 years of extra LTS support.
+
+See Debian Releases Wiki page and Debian LTS Wiki page for detailed information.
+
+Index of releases
+The next release of Debian is codenamed bullseye — no release date has been set
+Debian 10 (buster) — current stable release
+Debian 9 (stretch) — oldstable release
+Debian 8 (jessie) — oldoldstable release
+Debian 7 (wheezy) — obsolete stable release
+Debian 6.0 (squeeze) — obsolete stable release
+Debian GNU/Linux 5.0 (lenny) — obsolete stable release
+Debian GNU/Linux 4.0 (etch) — obsolete stable release
+Debian GNU/Linux 3.1 (sarge) — obsolete stable release
+Debian GNU/Linux 3.0 (woody) — obsolete stable release
+Debian GNU/Linux 2.2 (potato) — obsolete stable release
+Debian GNU/Linux 2.1 (slink) — obsolete stable release
+Debian GNU/Linux 2.0 (hamm) — obsolete stable release
+The web pages for the obsolete Debian releases are kept intact, but the releases themselves can only be found in a separate archive.
+
+See the Debian FAQ for an explanation of where all these codenames came from.

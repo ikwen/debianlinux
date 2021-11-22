@@ -1,0 +1,3 @@
+debian上使用dpkg -b打包
+
+https://blog.csdn.net/punk_lover/article/details/78456167

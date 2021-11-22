@@ -1,0 +1,32 @@
+
+刚装完的debian 时间很容易快或慢8小时，这时用 git 同步就会出现 
+! [rejected] master -> master (non-fast forward)
+的错误
+
+这时不用更改系统时间
+用下列命令
+
+1、git pull origin master --allow-unrelated-histories //把远程仓库和本地同步，消除差异
+
+2、重新add和commit相应文件
+
+3、git push origin master
+
+4、此时就能够上传成功了
+
+参考：https://blog.csdn.net/xieneng2004/article/details/81044371
+
+然后就是正常了，但最后我检查了一下，发现系统时间很准，和手机的时间一分不差。
+也就是说：这次的问题确实是本机时间（区域设置）与 github.com的时区肯定是不同的。
+--allow-unrelated-histories  参数有待理解。
+git pull origin master 这样也是可以的。
+
+关于pull参数的理解。
+https://www.cnblogs.com/taohuaya/p/10761799.html
+git pull命令的作用是：取回远程主机某个分支的更新，再与本地的指定分支合并。
+
+一句话总结git pull和git fetch的区别：
+
+git pull = git fetch + git merge
+
+

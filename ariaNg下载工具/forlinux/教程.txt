@@ -1,0 +1,35 @@
+参考文档：
+http://ivo-wang.github.io/2019/04/18/%E5%85%B3%E4%BA%8Earia2%E6%9C%80%E5%AE%8C%E6%95%B4%E7%9A%84%E4%B8%80%E7%AF%87/
+
+https://www.youtube.com/watch?v=9uKSOVDJGsU&list=WL&index=1&t=152s
+
+
+1、建立一个 aria2.conf 配置文件，名字应该是没有限制的文件名，位置也随意。
+比如 vi /etc/aria2/aria2.conf
+输入如下内容：
+continue=true #断点续传
+enable-rpc=true #rpc端口监听打开
+rpc-secret=aa111111 #RPC密钥，这个对应ariaNg里的设置，不设置也可以使用。
+
+2、有了配置文件后，我们可以这样启动。
+–conf-path 指定配置文件路径 -D 以Daemon的方式启动
+aria2c --conf-path=/etc/aria2/aria2.conf -D
+
+3、启动后查看监听端口是否是6800
+# ss -tulpn | grep aria2c
+tcp    LISTEN  0   1   :::6800     :::*     users:(("aria2c",41664,7))
+tcp    LISTEN  0   1    *:6800         *:*    users:(("aria2c",41664,6))
+
+4、为了方便控制，我们提供启动脚本： aia2start.sh 如果需要关闭 输入killall aria2c即可
+cat aria2start.sh
+
+#!/bin/bash
+# Program
+# Start aria2 use path address aria2.conf
+address=/home/ivo/aria2
+aria2c --conf-path="$address"/aria2.conf -D
+
+添加可执行权限 chmod +x ~/aria2/aria2start.sh
+
+
+其它更多功能有待研究。
