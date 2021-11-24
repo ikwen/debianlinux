@@ -1,0 +1,3 @@
+apt install apt-file
+
+apt-file search xxx.so

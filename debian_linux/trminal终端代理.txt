@@ -1,0 +1,26 @@
+
+
+https://zhuanlan.zhihu.com/p/46973701  教程。
+
+在终端直接运行  export http_proxy=http://192.168.2.1:7890  后，
+如果安装过chrome 浏览器，/etc/apt/sources.list 会加入google的源。没通过代理会提示更新失败，
+代理后  apt-update 正常即可。
+
+
+
+方法二 ：
+这个办法的好处是把代理服务器永久保存了，下次就可以直接用了
+把代理服务器地址写入shell配置文件.bashrc或者.zshrc 直接在.bashrc或者.zshrc添加下面内容
+
+export http_proxy="http://localhost:port"
+export https_proxy="http://localhost:port"
+或者走socket5协议（ss,ssr）的话，代理端口是1080
+
+export http_proxy="socks5://127.0.0.1:1080"
+export https_proxy="socks5://127.0.0.1:1080"
+或者干脆直接设置ALL_PROXY
+
+export ALL_PROXY=socks5://127.0.0.1:1080
+最后在执行如下命令应用设置
+
+source ~/.bashrc

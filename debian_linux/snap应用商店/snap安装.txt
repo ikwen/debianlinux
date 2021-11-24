@@ -1,0 +1,12 @@
+https://snapcraft.io/docs/installing-snap-on-debian  命令行版. 
+
+snap install core  做这步之前一定要重启系统，以更新snap 目录。
+
+
+https://snapcraft.io/docs/installing-snap-store-app  GUI图形版APP.
+snap install snap-store
+
+
+
+https://snapcraft.io/docs/getting-started#heading--searching
+snap  入门指南

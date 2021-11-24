@@ -1,0 +1,12 @@
+root@debian:/home/test# snap find wechat
+Name               Version  Publisher       Notes  Summary
+electronic-wechat  2.0      ubuntu-dawndiy  -      A better WeChat on macOS and Linux. Built with Electron.
+saox               2.8.8    boyphongsakorn  -      Unofficial JOOX Web App
+singlebox          21.1.0   quanglam2807    -      All-in-One Messenger
+
+
+
+
+snap install electronic-wechat
+
+装完能运行，但提示不能登录网页版。这其实就是一个网页版的APP改的。

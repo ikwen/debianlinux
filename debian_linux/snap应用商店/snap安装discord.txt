@@ -1,0 +1,22 @@
+https://superuser.com/questions/1625164/discord-now-installing-in-kali-linux-dependency-is-not-satisfiable-libappindic
+
+snap install discord
+
+========================================================
+安装完了找不到discord?
+  /sanp/bin/discord  这样直接运行就可以了。
+
+https://snapcraft.io/docs/getting-started   介绍。
+
+
+从快照运行应用程序和命令
+可以在 下找到 snap 安装的应用程序/snap/bin，随后通常会添加到$PATH 中。这使得可以从命令行直接访问命令。
+
+例如，通过 VLC snap 安装的命令只是vlc：
+
+$ which vlc
+/snap/bin/vlc
+如果直接执行命令不起作用，请尝试使用/snap/bin路径作为前缀：
+
+$ /snap/bin/vlc
+添加/snap/bin到您的默认$PATH使运行不会自动添加自己的快照更加方便。

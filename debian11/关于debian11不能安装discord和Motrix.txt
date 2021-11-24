@@ -1,0 +1,13 @@
+https://packages.debian.org/buster/amd64/libappindicator3-1/download
+
+只要把源改成 debian 10 的代号，然后 apt update 一下即可。
+因为在11的源里面根本 就没有 libappindicator1_0.4.92-7_amd64.deb 这个东东，
+就算你在 https://packages.debian.org/buster/amd64/libappindicator3-1/download 这个页面下载了deb 文件也安装不上。
+因为依赖没有解决。
+
+
+
+您可以使用以下列表中的任何一个源镜像只要往您的 /etc/apt/sources.list 文件中像下面这样添加一行：
+
+deb http://ftp.de.debian.org/debian buster main 
+请使用最终确定的源镜像替换 ftp.de.debian.org/debian。
