@@ -1,0 +1,4 @@
+/root/.bashrc
+/root/.ssh/id_rsa.pub
+/etc/samba/smb.conf
+/etc/network/interface
