@@ -1,0 +1,10 @@
+PPLNS:
+firominer -G -P stratum+tcp://aM8rkb4x7v49PP4X4L9PZGio9uaaMHwnnD.ikwenfiro@pool.zh.woolypooly.com:3104
+
+SOLO: 
+firominer -G -P stratum+tcp://aM8rkb4x7v49PP4X4L9PZGio9uaaMHwnnD.ikwenfiro@pool.zh.woolypooly.com:3105
+
+vc_redist.x64.exe  需要安装，不然会提示掉*.DLL。
+
+需要SSR，不然连不上woolypooly.com。
+

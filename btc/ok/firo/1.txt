@@ -1,0 +1,23 @@
+https://firo.org/guide/how-to-mine-firo.html
+
+矿池挖矿
+Firominer：
+
+英伟达：
+firominer -U -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
+AMD：
+firominer -G -P stratum+tcp://username.worker:password@POOLADDRESS:PORT
+
+
+
+
+pool:
+
+https://woolypooly.com/zh/coin/firo
+
+pool.zh.woolypooly.com:3104
+
+
+
+github:
+https://github.com/firoorg/firominer/releases
