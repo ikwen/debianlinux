@@ -1,1 +1,3 @@
 https://github.com/tumashu/pyim
+
+https://github.com/redguardtoo/pyim2fcitx
