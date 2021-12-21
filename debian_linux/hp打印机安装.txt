@@ -1,0 +1,17 @@
+http://scateu.me/2014/01/07/ubuntu-debian-install-hp-printer.html
+
+http://scateu.me/2014/01/07/ubuntu-debian-install-hp-printer.html
+
+
+运行hp-setup 时，会提示缺少未安装的软件包。
+
+1. error: Failed to find the lsusb command   提示lsusb 命令没有，
+这时安装 libnss-mdns 包即可，
+https://unix.stackexchange.com/questions/385839/avahi-browse-a-does-not-show-any-results 在这里找到的。
+
+
+2.error: Avahi-browse is not installed
+提示这个没有安装，但刷新多几次也可以成功添加打印机的。
+
+本次成功测试 M1005 MFP
+
