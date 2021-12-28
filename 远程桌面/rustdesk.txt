@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=xZxTNnnYdJ8&t=4s
+
+https://github.com/rustdesk/rustdesk/releases/tag/1.1.8
+
+
+支持 exe  rpm  deb apk 全平台，开源免费。
