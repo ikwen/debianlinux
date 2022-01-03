@@ -1,0 +1,11 @@
+https://www.runoob.com/note/28602
+
+
+
+https://www.rarlab.com/download.htm
+# tar -xzpvf rarlinux-x64-5.6.b5.tar.gz
+# cd rar
+# make
+
+
+# unrar e all.rar
