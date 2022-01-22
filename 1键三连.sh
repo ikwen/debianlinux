@@ -1,4 +1,10 @@
 1
+o
+
+jooooo
+
+o
+
 ooo
 
 
