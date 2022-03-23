@@ -1,0 +1,16 @@
+https://szu17dmy.github.io/site/misc/time_issue_when_dual_systems_windows_and_ubuntu/
+
+Windows和Ubuntu双系统下的时间问题 
+==================================
+在windows 里面操作，
+
+使用power shell  管理员模式。
+Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+
+
+没报错就行了。
+=================================
+
+在linux 里面操作；
+sudo timedatectl set-local-rtc 1 --adjust-system-clock
+==================================
