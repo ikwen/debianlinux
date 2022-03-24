@@ -1,7 +1,0 @@
-   bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
-
-https://binghequanzi.blogspot.com/2021/12/vpshaxxray-x-uivmessvlesstrojanshadowso.html  介绍
-https://www.youtube.com/watch?v=-5F1KixFDbU   视频 
-
-
-http://91.134.238.133:5556/   后台管理  其中 http://91.134.238.133是hax里面ip v6 转ipv4那里的IP和端口，IP是选可以ping 通的，端口是自己自定义的。
