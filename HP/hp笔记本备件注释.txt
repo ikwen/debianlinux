@@ -1,0 +1,33 @@
+
+SPS-LCD BEZEL HD   LCD液晶边框   B壳
+
+SPS-PLASTIC KIT  主板左边的塑料加固件  指纹塑料面板  LAN塑料盖子
+
+SPS-RTC BATTERY   RTC电池  主板小电池
+
+SKO-BATT 3C 45Wh 3.95Ah LI RH03045XL-PL   大电池  3.95Ah
+
+SPS-HEATSINK  散热器
+
+SPS-RAW PANEL LCD 14 FHD 400n LOCK   LCD屏幕
+
+SKO-WLAN Qualcomm Martini AX 2   WIFI 模块
+
+SPS-TOP COVER W/KBD CP BL SR USA A A A A     顶盖 C壳 -键盘一体
+
+SPS-BASE ENCLOSURE UMA 14    14寸底座  D壳
+
+	
+SPS-IO BOARD   IO板  USB小板
+
+SPS-FAN UMA   风扇1
+
+SPS-LCD CABLE KIT    LCD电缆套件   屏线 屏幕排线
+
+SPS-ANTENNA WLAN     WLAN 天线   
+
+SPS-SCREW KIT 镙丝套件
+
+SPS-CABLE KIT   电缆套件
+
+SPS-HINGE KIT 14      链绞套件  其实又是一个风扇
