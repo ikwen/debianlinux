@@ -1,0 +1,3 @@
+https://zhuanlan.zhihu.com/p/264346586
+
+一篇教会你写90%的shell脚本
