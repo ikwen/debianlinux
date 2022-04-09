@@ -10,7 +10,7 @@ jike138.net
 下载解压后得到文件：clash-linux-amd64   没有后缀。直接运行的。
 ======================================================
 2.
-在终端 cd 到 Clash 二进制文件所在的目录，执行 wget -O config.yml https://sub.sdncimcin.xyz/link/TSLYkP8FTnaj1o0T?clash=1&log-level=info 下载 Clash 配置文件
+在终端 cd 到 Clash 二进制文件所在的目录，执行 wget -O config.yml https://sub.sdncimcin.xyz/你的订阅地址.info   下载 Clash 配置文件
 下载完配置文件记得改名为：config.yaml 与clash-linux-amd64 放到一个文件名，重要。
 =========================================================================
 执行 ./clash -d . 即可启动 Clash，同时启动 HTTP 代理和 Socks5 代理。
