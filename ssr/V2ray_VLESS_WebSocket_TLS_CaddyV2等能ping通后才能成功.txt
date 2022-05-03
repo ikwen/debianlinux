@@ -1,0 +1,23 @@
+等能ping通后才能成功
+
+
+此脚本仅兼容于Debian 10+系统. 如果你的系统不符合,请Ctrl+C退出脚本
+可以去 https://github.com/crazypeace/V2ray_VLESS_WebSocket_TLS_CaddyV2 查看脚本整体思路和关键命令, 以便针对你自己的系统做出调整.
+有问题加群 https://t.me/+-wsJtBhlbQ8zMzRl
+
+39433
+
+
+https://zelikk.blogspot.com/2022/03/hax-ipv6-only-vps-v2ray-vmess-tcp-warp-ipv4.html   文字教程
+
+
+https://github.com/crazypeace/V2ray_VLESS_WebSocket_TLS_CaddyV2   github 文字教程
+
+一键执行
+apt update
+apt install -y curl
+bash <(curl -L https://github.com/crazypeace/V2ray_VLESS_WebSocket_TLS_CaddyV2/raw/main/install.sh)
+脚本中很大部分都是在校验用户的输入。其实照着下面的内容自己配置就行了。
+
+
+今晚一直在做，原因是无论在hax.co.id （先NO配置完成YES）做DNS还是在cloudflare.com（先灰色配置完成后橙色)。域名解释是需要时间的。时间是能ping通域名为止，刚开始是ping  不通的。白忙了一晚上。
