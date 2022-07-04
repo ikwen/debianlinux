@@ -1,0 +1,5 @@
+4. 搭建 VLESS + WebSocket + TLS 模式的 V2Ray
+用SSH工具登录VPS，输入命令
+apt update
+apt install -y curl
+bash <(curl -L https://github.com/crazypeace/V2ray_VLESS_WebSocket_TLS_CaddyV2/raw/main/install.sh)

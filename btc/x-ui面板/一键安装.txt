@@ -1,0 +1,13 @@
+https://zelikk.blogspot.com/2022/01/vmess-websocket-tls-caddy-nginx-aria2-ariang-filebrowser.html
+
+
+安装
+一键安装脚本（使用root用户）：
+bash <(curl -Lsk https://git.io/ccaasudo.sh)
+如果出现-bash: curl: command not found错误，说明curl命令没安装，请输入下面的命令先安装curl，再回过头来执行上面的命令再来一次。
+#Debian or Ubuntu
+apt-get install -y curl
+#CentOS
+yum install -y curl
+基本设置
+第一次打开 http://你的IP:6080/ ，会提示认证失败。不要被吓到了，关闭它。
