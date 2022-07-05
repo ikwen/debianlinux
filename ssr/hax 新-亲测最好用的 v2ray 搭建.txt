@@ -1,0 +1,7 @@
+bash <(curl -L https://github.com/crazypeace/V2ray_VLESS_WebSocket_TLS_CaddyV2/raw/main/install.sh)
+
+
+
+2105987819
+
+亲测最好用的 v2ray 搭建
